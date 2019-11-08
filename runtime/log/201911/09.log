@@ -2200,3 +2200,479 @@
 [ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
 [ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-09T00:59:46+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.059520s] [吞吐率：16.80req/s] [内存消耗：3,502.05kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001994s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '653dea18-8940-4548-9e51-dd6d4e6e67ba',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001983s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000397s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `frequency`=3  WHERE  `id` = 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `frequency`=frequency-1,`voted`=voted+1  WHERE  `id` = 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] INSERT INTO `fa_voting_record` (`user_id` , `voted_id` , `voted`) VALUES (1 , 1 , '2019-11-09') [ RunTime:0.000478s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] UPDATE `fa_candidate`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:59:51+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.052078s] [吞吐率：19.20req/s] [内存消耗：3,416.33kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001242s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5de88362-b035-43e0-b2ad-d8a1f007d3ad',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001765s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2019-11-09T01:00:47+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.057672s] [吞吐率：17.34req/s] [内存消耗：3,416.33kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001673s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ae7c729-2b17-40cb-9fc7-740713e69f26',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002128s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000594s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2019-11-09T01:01:35+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.057551s] [吞吐率：17.38req/s] [内存消耗：3,684.39kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001501s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '739125b6-bfb5-4287-919b-84f148ae22f9',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001960s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000422s ]
+[ error ] [0]variable type error： boolean[/Applications/MAMP/htdocs/fastadmin/thinkphp/library/think/Response.php:316]
+---------------------------------------------------------------
+[ 2019-11-09T01:01:56+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.060704s] [吞吐率：16.47req/s] [内存消耗：3,500.19kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001605s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '07e51c9e-fdb3-478f-a2bb-cd92bfc5e1e8',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001937s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `frequency`=frequency-1,`voted`=voted+1  WHERE  `id` = 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] INSERT INTO `fa_voting_record` (`user_id` , `voted_id` , `voted`) VALUES (1 , 1 , '2019-11-09') [ RunTime:0.000517s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] UPDATE `fa_candidate`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-11-09T01:02:03+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.061247s] [吞吐率：16.33req/s] [内存消耗：3,500.19kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001648s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6444c44e-a5e9-4f44-af64-95027e994f15',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001958s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000406s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `frequency`=frequency-1,`voted`=voted+1  WHERE  `id` = 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] INSERT INTO `fa_voting_record` (`user_id` , `voted_id` , `voted`) VALUES (1 , 1 , '2019-11-09') [ RunTime:0.000543s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] UPDATE `fa_candidate`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2019-11-09T01:02:08+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.058438s] [吞吐率：17.11req/s] [内存消耗：3,416.33kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001441s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f78d0ae-6f7d-42df-ab1e-c8ade31487dc',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004032s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000774s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2019-11-09T01:02:24+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.053454s] [吞吐率：18.71req/s] [内存消耗：3,416.33kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001391s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6356c9ad-ccd3-4f16-aff3-f24cb8e93460',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002466s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000872s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2019-11-09T01:02:44+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.109117s] [吞吐率：9.16req/s] [内存消耗：3,500.19kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000082s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001975s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '295bfac9-0e5b-4ac0-9a65-338757080626',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002333s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000462s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `frequency`=frequency-1,`voted`=voted+1  WHERE  `id` = 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] INSERT INTO `fa_voting_record` (`user_id` , `voted_id` , `voted`) VALUES (1 , 1 , '2019-11-09') [ RunTime:0.000512s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] UPDATE `fa_candidate`  SET `number`=number+1  WHERE  `id` = 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2019-11-09T01:02:46+08:00 ] 127.0.0.1 PUT fa/api/user/vote/1
+[运行时间：0.052908s] [吞吐率：18.90req/s] [内存消耗：3,416.33kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001483s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'boost',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '39407965-2717-4474-bfe3-3629eefcb2ce',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043SXf480fIWaF1vRV480uNs480SXf4d',
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002358s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->boost[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000296s ]

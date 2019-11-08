@@ -1,0 +1,2202 @@
+---------------------------------------------------------------
+[ 2019-11-09T00:05:45+08:00 ] 0.0.0.0 GET fa/admin.php/user_info?ref=addtabs
+[运行时间：0.057841s] [吞吐率：17.29req/s] [内存消耗：3,981.66kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001765s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user_info',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002443s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:45+08:00 ] 0.0.0.0 GET fa/admin.php/index/index
+[运行时间：0.112716s] [吞吐率：8.87req/s] [内存消耗：4,487.71kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001317s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002209s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000118s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:46+08:00 ] 0.0.0.0 GET fa/admin.php/user_info?addtabs=1
+[运行时间：0.081897s] [吞吐率：12.21req/s] [内存消耗：4,308.90kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008495s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user_info',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002157s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/user_info.php
+[ info ] [ RUN ] app\admin\controller\UserInfo->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/UserInfo.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/user_info/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000107s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'userinfo' LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:46+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=index&v=1573229145
+[运行时间：0.076935s] [吞吐率：13.00req/s] [内存消耗：3,428.43kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000115s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011880s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1573229145',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004088s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-09T00:05:46+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=user_info&v=1573229146
+[运行时间：0.089256s] [吞吐率：11.20req/s] [内存消耗：3,423.70kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007189s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/user_info?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user_info',
+  'v' => '1573229146',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003060s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/user_info.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-09T00:05:46+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?addtabs=1
+[运行时间：0.096495s] [吞吐率：10.36req/s] [内存消耗：4,387.46kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006878s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003731s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000113s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:46+08:00 ] 0.0.0.0 GET fa/admin.php/user_info/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573229146189
+[运行时间：0.090472s] [吞吐率：11.05req/s] [内存消耗：4,458.48kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009198s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user_info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/user_info?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573229146189',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002441s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/user_info.php
+[ info ] [ RUN ] app\admin\controller\UserInfo->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/UserInfo.php ]
+[ info ] 1234
+[ info ] array (
+  0 => 
+  app\admin\model\UserInfo::__set_state(array(
+     'name' => 'user_info',
+     'autoWriteTimestamp' => false,
+     'createTime' => false,
+     'updateTime' => false,
+     'deleteTime' => false,
+     'append' => 
+    array (
+    ),
+     'connection' => 
+    array (
+    ),
+     'parent' => NULL,
+     'query' => NULL,
+     'table' => NULL,
+     'class' => 'app\\admin\\model\\UserInfo',
+     'error' => NULL,
+     'validate' => NULL,
+     'pk' => NULL,
+     'field' => 
+    array (
+    ),
+     'except' => 
+    array (
+    ),
+     'disuse' => 
+    array (
+    ),
+     'readonly' => 
+    array (
+    ),
+     'visible' => 
+    array (
+    ),
+     'hidden' => 
+    array (
+    ),
+     'data' => 
+    array (
+      'id' => 1,
+      'user_id' => 1,
+      'judges' => '评选人',
+      'children' => '孩子',
+    ),
+     'origin' => 
+    array (
+      'id' => 1,
+      'user_id' => 1,
+      'judges' => '评选人',
+      'children' => '孩子',
+    ),
+     'relation' => 
+    array (
+      'user' => 
+      app\admin\model\User::__set_state(array(
+         'name' => 'user',
+         'autoWriteTimestamp' => false,
+         'createTime' => false,
+         'updateTime' => false,
+         'deleteTime' => false,
+         'append' => 
+        array (
+        ),
+         'connection' => 
+        array (
+        ),
+         'parent' => 
+        app\admin\model\UserInfo::__set_state(array(
+           'name' => 'user_info',
+           'autoWriteTimestamp' => false,
+           'createTime' => false,
+           'updateTime' => false,
+           'deleteTime' => false,
+           'append' => 
+          array (
+          ),
+           'connection' => 
+          array (
+          ),
+           'parent' => NULL,
+           'query' => NULL,
+           'table' => NULL,
+           'class' => 'app\\admin\\model\\UserInfo',
+           'error' => NULL,
+           'validate' => NULL,
+           'pk' => NULL,
+           'field' => 
+          array (
+          ),
+           'except' => 
+          array (
+          ),
+           'disuse' => 
+          array (
+          ),
+           'readonly' => 
+          array (
+          ),
+           'visible' => 
+          array (
+          ),
+           'hidden' => 
+          array (
+          ),
+           'data' => 
+          array (
+            'id' => 1,
+            'user_id' => 1,
+            'judges' => '评选人',
+            'children' => '孩子',
+          ),
+           'origin' => 
+          array (
+            'id' => 1,
+            'user_id' => 1,
+            'judges' => '评选人',
+            'children' => '孩子',
+          ),
+           'relation' => 
+          array (
+          ),
+           'auto' => 
+          array (
+          ),
+           'insert' => 
+          array (
+          ),
+           'update' => 
+          array (
+          ),
+           'dateFormat' => false,
+           'type' => 
+          array (
+          ),
+           'isUpdate' => true,
+           'replace' => false,
+           'force' => false,
+           'updateWhere' => NULL,
+           'failException' => false,
+           'useGlobalScope' => true,
+           'batchValidate' => false,
+           'resultSetType' => 'array',
+           'relationWrite' => NULL,
+        )),
+         'query' => NULL,
+         'table' => NULL,
+         'class' => 'app\\admin\\model\\User',
+         'error' => NULL,
+         'validate' => NULL,
+         'pk' => NULL,
+         'field' => 
+        array (
+        ),
+         'except' => 
+        array (
+        ),
+         'disuse' => 
+        array (
+        ),
+         'readonly' => 
+        array (
+        ),
+         'visible' => 
+        array (
+        ),
+         'hidden' => 
+        array (
+        ),
+         'data' => 
+        array (
+          'id' => 1,
+          'openid' => 'o9LgR5aTQssrjDGb31y1eUE0gdj8',
+          'name' => '陈志洪',
+          'phone' => '13428038130',
+          'avatar_url' => 'https://wx.qlogo.cn/mmopen/vi_32/wnNregQoqTpA519MibrQsiarQRVZGXFqBt60zm0LB1TTw0f5NUNiaSmT2hqaoqGSMSPoAiaB0wJlQCjZXwsdU8K8IQ/132',
+          'voted' => 7,
+          'number' => 5,
+          'frequency' => 0,
+          'user_info_id' => NULL,
+          'candidate_number' => '20162904',
+          'candidate_id' => 1,
+          'is_complete' => 1,
+          'create_at' => '2019-11-04 20:03:27',
+        ),
+         'origin' => 
+        array (
+          'id' => 1,
+          'openid' => 'o9LgR5aTQssrjDGb31y1eUE0gdj8',
+          'name' => '陈志洪',
+          'phone' => '13428038130',
+          'avatar_url' => 'https://wx.qlogo.cn/mmopen/vi_32/wnNregQoqTpA519MibrQsiarQRVZGXFqBt60zm0LB1TTw0f5NUNiaSmT2hqaoqGSMSPoAiaB0wJlQCjZXwsdU8K8IQ/132',
+          'voted' => 7,
+          'number' => 5,
+          'frequency' => 0,
+          'user_info_id' => NULL,
+          'candidate_number' => '20162904',
+          'candidate_id' => 1,
+          'is_complete' => 1,
+          'create_at' => '2019-11-04 20:03:27',
+        ),
+         'relation' => 
+        array (
+        ),
+         'auto' => 
+        array (
+        ),
+         'insert' => 
+        array (
+        ),
+         'update' => 
+        array (
+        ),
+         'dateFormat' => false,
+         'type' => 
+        array (
+        ),
+         'isUpdate' => true,
+         'replace' => false,
+         'force' => false,
+         'updateWhere' => NULL,
+         'failException' => false,
+         'useGlobalScope' => true,
+         'batchValidate' => false,
+         'resultSetType' => 'array',
+         'relationWrite' => NULL,
+      )),
+    ),
+     'auto' => 
+    array (
+    ),
+     'insert' => 
+    array (
+    ),
+     'update' => 
+    array (
+    ),
+     'dateFormat' => false,
+     'type' => 
+    array (
+    ),
+     'isUpdate' => true,
+     'replace' => false,
+     'force' => false,
+     'updateWhere' => NULL,
+     'failException' => false,
+     'useGlobalScope' => true,
+     'batchValidate' => false,
+     'resultSetType' => 'array',
+     'relationWrite' => NULL,
+  )),
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000114s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_info` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user_info` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_info` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` IN (1) [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:46+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=general.config&v=1573229146
+[运行时间：0.051472s] [吞吐率：19.43req/s] [内存消耗：3,427.07kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001371s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1573229146',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003231s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-09T00:05:49+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?addtabs=1
+[运行时间：0.061085s] [吞吐率：16.37req/s] [内存消耗：4,313.91kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001285s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002795s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'candidate' LIMIT 1 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:49+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573229149
+[运行时间：0.047713s] [吞吐率：20.96req/s] [内存消耗：3,424.09kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001287s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573229149',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002121s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-09T00:05:49+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573229149242
+[运行时间：0.068568s] [吞吐率：14.58req/s] [内存消耗：4,355.59kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006555s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573229149242',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002064s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:58+08:00 ] 0.0.0.0 POST fa/admin.php/ajax/upload
+[运行时间：0.068521s] [吞吐率：14.59req/s] [内存消耗：4,292.20kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001346s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'content-length' => '34939',
+  'origin' => 'http://fa',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8deHPZKQDWjhFC77',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'name' => '2019芷扬考级座位号(1).xlsx',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002352s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003493s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_attachment` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_attachment` WHERE  `url` = '/uploads/20191109/ae76c495fc5edf01507b5877777f750c.xlsx' LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] INSERT INTO `fa_attachment` (`admin_id` , `filesize` , `imagetype` , `mimetype` , `url` , `uploadtime` , `storage` , `sha1` , `extparam` , `createtime` , `updatetime`) VALUES (1 , 34553 , 'xlsx' , 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' , '/uploads/20191109/ae76c495fc5edf01507b5877777f750c.xlsx' , 1573229158 , 'local' , '4b5f850294291db1016f116824f0db78147cc4b5' , '{\"name\":\"2019\\u82b7\\u626c\\u8003\\u7ea7\\u5ea7\\u4f4d\\u53f7(1).xlsx\"}' , 1573229158 , 1573229158) [ RunTime:0.002112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"name\":\"2019\\u82b7\\u626c\\u8003\\u7ea7\\u5ea7\\u4f4d\\u53f7(1).xlsx\"}' , '/admin.php/ajax/upload' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36' , '0.0.0.0' , 1573229158) [ RunTime:0.001764s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:59+08:00 ] 0.0.0.0 POST fa/admin.php/candidate/import
+[运行时间：0.541863s] [吞吐率：1.85req/s] [内存消耗：10,889.01kb] [文件加载：195]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001323s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'content-length' => '66',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://fa',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20191109/ae76c495fc5edf01507b5877777f750c.xlsx',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001769s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->import[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001965s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT COLUMN_NAME,COLUMN_COMMENT FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'fa_candidate' AND TABLE_SCHEMA = 'write' [ RunTime:0.000867s ]
+[ sql ] [ SQL ] 'write'fa_candidate'HOW COLUMNS FROM `fa_candidate` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘羡宜' , 'KS-01001' , '1排1座' , 'a') [ RunTime:0.000450s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周沐阳' , 'KS-01002' , '1排2座' , 'a') [ RunTime:0.000379s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴怡萱' , 'KS-01003' , '1排3座' , 'a') [ RunTime:0.000329s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王定灿' , 'KS-01004' , '1排4座' , 'a') [ RunTime:0.000242s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张梓涵' , 'KS-01005' , '1排5座' , 'a') [ RunTime:0.000263s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴晋玮' , 'KS-01006' , '1排6座' , 'a') [ RunTime:0.000229s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金雨禾' , 'KS-01007' , '1排7座' , 'a') [ RunTime:0.000231s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('林芷洁' , 'KS-01008' , '1排8座' , 'a') [ RunTime:0.000216s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('廖予煊' , 'KS-01009' , '1排9座' , 'a') [ RunTime:0.000216s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘毅' , 'KS-01010' , '1排10座' , 'a') [ RunTime:0.000213s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曾威然' , 'KS-01011' , '1排11座' , 'a') [ RunTime:0.000212s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王一鸣' , 'KS-01012' , '1排12座' , 'a') [ RunTime:0.000215s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈宇鑫' , 'KS-01013' , '1排13座' , 'a') [ RunTime:0.000275s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹浅予' , 'KS-01014' , '1排14座' , 'a') [ RunTime:0.000209s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陶子俊' , 'KS-01015' , '1排15座' , 'a') [ RunTime:0.000264s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('蔡铭皓' , 'KS-01016' , '1排16座' , 'a') [ RunTime:0.000248s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('蒋烨' , 'KS-01017' , '1排17座' , 'a') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张涵' , 'KS-01018' , '1排18座' , 'a') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王舒凡' , 'KS-01019' , '1排19座' , 'b') [ RunTime:0.000144s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈梓言' , 'KS-01020' , '1排20座' , 'b') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('卓宜沛' , 'KS-01021' , '1排21座' , 'b') [ RunTime:0.000245s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈玥凝' , 'KS-01022' , '1排22座' , 'b') [ RunTime:0.000237s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴浩嘉' , 'KS-01023' , '1排23座' , 'b') [ RunTime:0.000229s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王颂捷' , 'KS-01024' , '1排24座' , 'b') [ RunTime:0.000188s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杜昱影' , 'KS-01025' , '1排25座' , 'b') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张珂瑞' , 'KS-01026' , '1排26座' , 'b') [ RunTime:0.000151s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('俞辰乐' , 'KS-01027' , '1排27座' , 'b') [ RunTime:0.000166s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钱思睿' , 'KS-01028' , '1排28座' , 'b') [ RunTime:0.000145s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陆宸泽' , 'KS-01029' , '1排29座' , 'b') [ RunTime:0.000137s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹祖睿' , 'KS-01030' , '1排30座' , 'b') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹祖源' , 'KS-01031' , '1排31座' , 'b') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张明' , 'KS-01032' , '1排32座' , 'b') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴欣妍' , 'KS-01033' , '1排33座' , 'b') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王一扬' , 'KS-01034' , '1排34座' , 'b') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('翁嘉蔚' , 'KS-01035' , '1排35座' , 'b') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾芮' , 'KS-01036' , '1排36座' , 'b') [ RunTime:0.000192s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈昱帆' , 'KS-01037' , '2排1座' , 'a') [ RunTime:0.000233s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈午炫' , 'KS-01038' , '2排2座' , 'a') [ RunTime:0.000225s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈绍彦' , 'KS-01039' , '2排3座' , 'a') [ RunTime:0.000243s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王轶萱' , 'KS-01040' , '2排4座' , 'a') [ RunTime:0.000275s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('臧劲风' , 'KS-01041' , '2排5座' , 'a') [ RunTime:0.000342s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('包明宇' , 'KS-01042' , '2排6座' , 'a') [ RunTime:0.000188s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐子宸' , 'KS-01043' , '2排7座' , 'a') [ RunTime:0.000207s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('丁彦' , 'KS-01044' , '2排8座' , 'a') [ RunTime:0.000323s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('鲁秋璇' , 'KS-01045' , '2排9座' , 'a') [ RunTime:0.000330s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王锘淳' , 'KS-01046' , '2排10座' , 'a') [ RunTime:0.000224s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张秀泽' , 'KS-01047' , '2排11座' , 'a') [ RunTime:0.000185s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('程冠博' , 'KS-01048' , '2排12座' , 'a') [ RunTime:0.000178s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周栀欣' , 'KS-01049' , '2排13座' , 'a') [ RunTime:0.000168s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谢炜铭' , 'KS-01050' , '2排14座' , 'a') [ RunTime:0.000151s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王奕涵' , 'KS-01051' , '2排15座' , 'a') [ RunTime:0.000164s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('梅铱洋' , 'KS-01052' , '2排16座' , 'a') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周小璐' , 'KS-01053' , '2排17座' , 'a') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('丁懿涵' , 'KS-01054' , '2排18座' , 'a') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('姚筱熙' , 'KS-01055' , '2排19座' , 'b') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴悠' , 'KS-01056' , '2排20座' , 'b') [ RunTime:0.000140s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张康' , 'KS-01057' , '2排21座' , 'b') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王昱涵' , 'KS-01058' , '2排22座' , 'b') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张钰' , 'KS-01059' , '2排23座' , 'b') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王泺齐' , 'KS-01060' , '2排24座' , 'b') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张家三' , 'KS-01061' , '2排25座' , 'b') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李泊霖' , 'KS-01062' , '2排26座' , 'b') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张浩岚' , 'KS-01063' , '2排27座' , 'b') [ RunTime:0.000167s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴怡萱' , 'KS-01064' , '2排28座' , 'b') [ RunTime:0.000145s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('勾瑾璨' , 'KS-01065' , '2排29座' , 'b') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('罗晨菲' , 'KS-01066' , '2排30座' , 'b') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张天轶' , 'KS-01067' , '2排31座' , 'b') [ RunTime:0.000239s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张昆' , 'KS-01068' , '2排32座' , 'b') [ RunTime:0.000213s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('詹承石' , 'KS-01069' , '2排33座' , 'b') [ RunTime:0.000185s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨苗康' , 'KS-01070' , '2排34座' , 'b') [ RunTime:0.000175s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈佳欣' , 'KS-01071' , '2排35座' , 'b') [ RunTime:0.000177s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周天宇' , 'KS-01072' , '2排36座' , 'b') [ RunTime:0.000140s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('芮郡隆' , 'KS-01073' , '3排1座' , 'a') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('樊奕昕' , 'KS-01074' , '3排2座' , 'a') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('尼廓然' , 'KS-01075' , '3排3座' , 'a') [ RunTime:0.000137s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('龚晟赫' , 'KS-01076' , '3排4座' , 'a') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('簡翊喬' , 'KS-01077' , '3排5座' , 'a') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('庄舒凯' , 'KS-01078' , '3排6座' , 'a') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('马郡禧' , 'KS-01079' , '3排7座' , 'a') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王汐晨' , 'KS-01080' , '3排8座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('董霂' , 'KS-01081' , '3排9座' , 'a') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾一诺' , 'KS-01082' , '3排10座' , 'a') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张顾祎晗' , 'KS-01083' , '3排11座' , 'a') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('江佳乐' , 'KS-01084' , '3排12座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('林汶桦' , 'KS-01085' , '3排13座' , 'a') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('代晨辉' , 'KS-01086' , '3排14座' , 'a') [ RunTime:0.000257s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈骏喆' , 'KS-01087' , '3排15座' , 'a') [ RunTime:0.000267s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('袁晟翌' , 'KS-01088' , '3排16座' , 'a') [ RunTime:0.000261s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('封静言' , 'KS-01089' , '3排17座' , 'a') [ RunTime:0.000188s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈昕琪' , 'KS-01090' , '3排18座' , 'a') [ RunTime:0.000180s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈钰轩' , 'KS-01091' , '3排19座' , 'b') [ RunTime:0.000187s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高永博' , 'KS-01092' , '3排20座' , 'b') [ RunTime:0.000201s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈明惠' , 'KS-01093' , '3排21座' , 'b') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('汪皓阳' , 'KS-01094' , '3排22座' , 'b') [ RunTime:0.000203s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('丁子轩' , 'KS-01095' , '3排23座' , 'b') [ RunTime:0.000197s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈俊宇' , 'KS-01096' , '3排24座' , 'b') [ RunTime:0.000202s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张曼琪' , 'KS-01097' , '3排25座' , 'b') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('罗逸堃' , 'KS-01098' , '3排26座' , 'b') [ RunTime:0.000183s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈奕涵' , 'KS-01099' , '3排27座' , 'b') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李宇轩' , 'KS-01100' , '3排28座' , 'b') [ RunTime:0.000139s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李锦哲' , 'KS-01101' , '3排29座' , 'b') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('邱传胜' , 'KS-01102' , '3排30座' , 'b') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('方成志' , 'KS-01103' , '3排31座' , 'b') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('崔铠琳' , 'KS-01104' , '3排32座' , 'b') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陆昱恺' , 'KS-01105' , '3排33座' , 'b') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张馨月' , 'KS-01106' , '3排34座' , 'b') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘昊天' , 'KS-01107' , '3排35座' , 'b') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周熙雯' , 'KS-01108' , '3排36座' , 'b') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱雨昕' , 'KS-01109' , '4排1座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张恒逸' , 'KS-01110' , '4排2座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('康博闻' , 'KS-01111' , '4排3座' , 'a') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李怡萱' , 'KS-01112' , '4排4座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('浦程曦' , 'KS-01113' , '4排5座' , 'a') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李俊毅' , 'KS-01114' , '4排6座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('戴子涵' , 'KS-01115' , '4排7座' , 'a') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵一睿' , 'KS-01116' , '4排8座' , 'a') [ RunTime:0.000143s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑文鼎' , 'KS-01117' , '4排9座' , 'a') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐嘉隽' , 'KS-01118' , '4排10座' , 'a') [ RunTime:0.000232s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐伊乐' , 'KS-01119' , '4排11座' , 'a') [ RunTime:0.000240s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宋雨馨' , 'KS-01120' , '4排12座' , 'a') [ RunTime:0.000179s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾峻语' , 'KS-01121' , '4排13座' , 'a') [ RunTime:0.000173s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杜嵘' , 'KS-01122' , '4排14座' , 'a') [ RunTime:0.000158s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱可天' , 'KS-01123' , '4排15座' , 'a') [ RunTime:0.000166s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('肖鸿翌' , 'KS-01124' , '4排16座' , 'a') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑世欣' , 'KS-01125' , '4排17座' , 'a') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李思媛' , 'KS-01126' , '4排18座' , 'a') [ RunTime:0.000141s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('肖沈越' , 'KS-01127' , '4排19座' , 'b') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王佳妮' , 'KS-01128' , '4排20座' , 'b') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孟姝辰' , 'KS-01129' , '4排21座' , 'b') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈嘉贤' , 'KS-01130' , '4排22座' , 'b') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('章寿鸿' , 'KS-01131' , '4排23座' , 'b') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王烁锴' , 'KS-01132' , '4排24座' , 'b') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周钰淇' , 'KS-01133' , '4排25座' , 'b') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('冯易轩' , 'KS-01134' , '4排26座' , 'b') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('马义楷' , 'KS-01135' , '4排27座' , 'b') [ RunTime:0.000141s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵晨淇' , 'KS-01136' , '4排28座' , 'b') [ RunTime:0.000187s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾瑾萱' , 'KS-01137' , '4排29座' , 'b') [ RunTime:0.000181s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('邵苏橙' , 'KS-01138' , '4排30座' , 'b') [ RunTime:0.000174s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金荣基' , 'KS-01139' , '4排31座' , 'b') [ RunTime:0.000226s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('林熙' , 'KS-01140' , '4排32座' , 'b') [ RunTime:0.000188s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王梓珂' , 'KS-01141' , '4排33座' , 'b') [ RunTime:0.000174s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('卢奕凯' , 'KS-01142' , '4排34座' , 'b') [ RunTime:0.000188s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张炎笃' , 'KS-01143' , '4排35座' , 'b') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹诗恩' , 'KS-01144' , '4排36座' , 'b') [ RunTime:0.000222s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘子驰' , 'KS-01145' , '5排1座' , 'a') [ RunTime:0.000191s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐杨捷' , 'KS-01146' , '5排2座' , 'a') [ RunTime:0.000179s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈诗雨' , 'KS-01147' , '5排3座' , 'a') [ RunTime:0.000171s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('董楚灏' , 'KS-01148' , '5排4座' , 'a') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王晋泽' , 'KS-01149' , '5排5座' , 'a') [ RunTime:0.000141s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐景熙' , 'KS-01150' , '5排6座' , 'a') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('黄睿瑄' , 'KS-01151' , '5排7座' , 'a') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('苏歆媛' , 'KS-01152' , '5排8座' , 'a') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张暮紫涵' , 'KS-01153' , '5排9座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('蒋卓霖' , 'KS-01154' , '5排10座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('华晗月' , 'KS-01155' , '5排11座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('欧阳瑞泽' , 'KS-01156' , '5排12座' , 'a') [ RunTime:0.000163s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王宇晗' , 'KS-01157' , '5排13座' , 'a') [ RunTime:0.000152s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑皓天' , 'KS-01158' , '5排14座' , 'a') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('卓士弘' , 'KS-01159' , '5排15座' , 'a') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宋思锐' , 'KS-01160' , '5排16座' , 'a') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李馨冉' , 'KS-01161' , '5排17座' , 'a') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('马晓杰' , 'KS-01162' , '5排18座' , 'a') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙梓毓' , 'KS-01163' , '5排19座' , 'b') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐凌轩' , 'KS-01164' , '5排20座' , 'b') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈琰皓' , 'KS-01165' , '5排21座' , 'b') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张辰宇' , 'KS-01166' , '5排22座' , 'b') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐蕴哲' , 'KS-01167' , '5排23座' , 'b') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('冯梓瑜' , 'KS-01168' , '5排24座' , 'b') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈慧玲' , 'KS-01169' , '5排25座' , 'b') [ RunTime:0.000227s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘代钧' , 'KS-01170' , '5排26座' , 'b') [ RunTime:0.000196s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('方博翼' , 'KS-01171' , '5排27座' , 'b') [ RunTime:0.000185s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张哲祎' , 'KS-01172' , '5排28座' , 'b') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张绩函' , 'KS-01173' , '5排29座' , 'b') [ RunTime:0.000167s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陶子翰' , 'KS-01174' , '5排30座' , 'b') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘秦沫' , 'KS-01175' , '5排31座' , 'b') [ RunTime:0.000154s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱浩然' , 'KS-01176' , '5排32座' , 'b') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱芷晗' , 'KS-01177' , '5排33座' , 'b') [ RunTime:0.000154s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王子骞' , 'KS-01178' , '5排34座' , 'b') [ RunTime:0.000137s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('夏玮鸿' , 'KS-01179' , '5排35座' , 'b') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高梓轩' , 'KS-01180' , '5排36座' , 'b') [ RunTime:0.000144s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵海博' , 'KS-01181' , '6排1座' , 'c') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周新宸' , 'KS-01182' , '6排2座' , 'c') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨舒然' , 'KS-01183' , '6排3座' , 'c') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('华杰' , 'KS-01184' , '6排4座' , 'c') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吕晓萱' , 'KS-01185' , '6排5座' , 'c') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨俊哲' , 'KS-01186' , '6排6座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱梓辰' , 'KS-01187' , '6排7座' , 'c') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('姚羽鑫' , 'KS-01188' , '6排8座' , 'c') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('傅政宇' , 'KS-01189' , '6排9座' , 'c') [ RunTime:0.000149s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('褚昱诚' , 'KS-01190' , '6排10座' , 'c') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杜婉荧' , 'KS-01191' , '6排11座' , 'c') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宋垚澄' , 'KS-01192' , '6排12座' , 'c') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘骐毓' , 'KS-01193' , '6排13座' , 'c') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('袁梓涵' , 'KS-01194' , '6排14座' , 'c') [ RunTime:0.000247s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('汪毅轩' , 'KS-01195' , '6排15座' , 'c') [ RunTime:0.000303s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王子睿' , 'KS-01196' , '6排16座' , 'c') [ RunTime:0.000258s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('欧宣佑' , 'KS-01197' , '6排17座' , 'c') [ RunTime:0.000259s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王子诺' , 'KS-01198' , '6排18座' , 'c') [ RunTime:0.000224s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵俊棋' , 'KS-01199' , '6排19座' , 'd') [ RunTime:0.000334s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('马芯韵' , 'KS-01200' , '6排20座' , 'd') [ RunTime:0.000218s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱妍' , 'KS-01201' , '6排21座' , 'd') [ RunTime:0.000281s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘子羽' , 'KS-01202' , '6排22座' , 'd') [ RunTime:0.000221s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐采希' , 'KS-01203' , '6排23座' , 'd') [ RunTime:0.000162s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('辛皓玉' , 'KS-01204' , '6排24座' , 'd') [ RunTime:0.000144s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘佳奕' , 'KS-01205' , '6排25座' , 'd') [ RunTime:0.000137s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈慧馨' , 'KS-01206' , '6排26座' , 'd') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐梓璐' , 'KS-01207' , '6排27座' , 'd') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('夏语汐' , 'KS-01208' , '6排28座' , 'd') [ RunTime:0.000174s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('唐鑫烨' , 'KS-01209' , '6排29座' , 'd') [ RunTime:0.000202s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吕定剑' , 'KS-01210' , '6排30座' , 'd') [ RunTime:0.000168s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('庄子逸' , 'KS-01211' , '6排31座' , 'd') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('靳艺涵' , 'KS-01212' , '6排32座' , 'd') [ RunTime:0.000139s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周隽宸' , 'KS-01213' , '6排33座' , 'd') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高昕镝' , 'KS-01214' , '6排34座' , 'd') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('俞欣越' , 'KS-01215' , '6排35座' , 'd') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李子由' , 'KS-01216' , '6排36座' , 'd') [ RunTime:0.000179s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('翟子墨' , 'KS-01217' , '7排1座' , 'c') [ RunTime:0.000182s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵子萱' , 'KS-01218' , '7排2座' , 'c') [ RunTime:0.000176s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钱嘉懿' , 'KS-01219' , '7排3座' , 'c') [ RunTime:0.000202s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('凌语晗' , 'KS-01220' , '7排4座' , 'c') [ RunTime:0.000166s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张珂' , 'KS-01221' , '7排5座' , 'c') [ RunTime:0.000170s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('季洛莹' , 'KS-01222' , '7排6座' , 'c') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('熊一凡' , 'KS-01223' , '7排7座' , 'c') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('程亦泽' , 'KS-01224' , '7排8座' , 'c') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王雨泽' , 'KS-01225' , '7排9座' , 'c') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谢非克' , 'KS-01226' , '7排10座' , 'c') [ RunTime:0.000173s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张馨冉' , 'KS-01227' , '7排11座' , 'c') [ RunTime:0.000161s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈一诺' , 'KS-01228' , '7排12座' , 'c') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('邵钲阳' , 'KS-01229' , '7排13座' , 'c') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹振禹' , 'KS-01230' , '7排14座' , 'c') [ RunTime:0.000137s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谭易乐' , 'KS-01231' , '7排15座' , 'c') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王春伟' , 'KS-01232' , '7排16座' , 'c') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹一顺' , 'KS-01233' , '7排17座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘宇洋' , 'KS-01234' , '7排18座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李鑫' , 'KS-01235' , '7排19座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴舒涵' , 'KS-01236' , '7排20座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('龚梓睿' , 'KS-01237' , '7排21座' , 'd') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('董思余' , 'KS-01238' , '7排22座' , 'd') [ RunTime:0.000244s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴依宸' , 'KS-01239' , '7排23座' , 'd') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('来思旭' , 'KS-01240' , '7排24座' , 'd') [ RunTime:0.000181s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('关博煜' , 'KS-01241' , '7排25座' , 'd') [ RunTime:0.000206s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王嘉睿' , 'KS-01242' , '7排26座' , 'd') [ RunTime:0.000212s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钱禹彤' , 'KS-01243' , '7排27座' , 'd') [ RunTime:0.000201s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('石兆杰' , 'KS-01244' , '7排28座' , 'd') [ RunTime:0.000221s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张怡钦' , 'KS-01245' , '7排29座' , 'd') [ RunTime:0.000229s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('冯子轩' , 'KS-01246' , '7排30座' , 'd') [ RunTime:0.000183s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('尹衍章' , 'KS-01247' , '7排31座' , 'd') [ RunTime:0.000180s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李雅萱' , 'KS-01248' , '7排32座' , 'd') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('潘柏远' , 'KS-01249' , '7排33座' , 'd') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张美嘉' , 'KS-01250' , '7排34座' , 'd') [ RunTime:0.000142s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钟馨雅' , 'KS-01251' , '7排35座' , 'd') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵翊轩' , 'KS-01252' , '7排36座' , 'd') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘寅熙' , 'KS-01253' , '8排1座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('戴浩鹏' , 'KS-01254' , '8排2座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐烁岩' , 'KS-01255' , '8排3座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙魏来' , 'KS-01256' , '8排4座' , 'c') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张博瀚' , 'KS-01257' , '8排5座' , 'c') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('邹之果' , 'KS-01258' , '8排6座' , 'c') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王吴圣恩' , 'KS-01259' , '8排7座' , 'c') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王劲儒' , 'KS-01260' , '8排8座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('龚美锦' , 'KS-01261' , '8排9座' , 'c') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张嘉桐' , 'KS-01262' , '8排10座' , 'c') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾嘉悦' , 'KS-01263' , '8排11座' , 'c') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('鲁一帆' , 'KS-01264' , '8排12座' , 'c') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹梓轩' , 'KS-01265' , '8排13座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陆聿心' , 'KS-01266' , '8排14座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈希妍' , 'KS-01267' , '8排15座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钟闻' , 'KS-01268' , '8排16座' , 'c') [ RunTime:0.000224s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱楷宸' , 'KS-01269' , '8排17座' , 'c') [ RunTime:0.000262s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱锌源' , 'KS-01270' , '8排18座' , 'c') [ RunTime:0.000216s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('耿媛媛' , 'KS-01271' , '8排19座' , 'd') [ RunTime:0.000179s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周祎彤' , 'KS-01272' , '8排20座' , 'd') [ RunTime:0.000147s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙张晨' , 'KS-01273' , '8排21座' , 'd') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王雨晗' , 'KS-01274' , '8排22座' , 'd') [ RunTime:0.000167s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈艺源' , 'KS-01275' , '8排23座' , 'd') [ RunTime:0.000139s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李胤泽' , 'KS-01276' , '8排24座' , 'd') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王锦程' , 'KS-01277' , '8排25座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈中炎' , 'KS-01278' , '8排26座' , 'd') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周杨' , 'KS-01279' , '8排27座' , 'd') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('詹雅雯' , 'KS-01280' , '8排28座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈子天' , 'KS-01281' , '8排29座' , 'd') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴菲扬' , 'KS-01282' , '8排30座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈志轩' , 'KS-01283' , '8排31座' , 'd') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周明轩' , 'KS-01284' , '8排32座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨云开' , 'KS-01285' , '8排33座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘易轩' , 'KS-01286' , '8排34座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('潘子宸' , 'KS-01287' , '8排35座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吕诗彤' , 'KS-01288' , '8排36座' , 'd') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙润其' , 'KS-01289' , '9排1座' , 'c') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾辰昱' , 'KS-01290' , '9排2座' , 'c') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('江文俊' , 'KS-01291' , '9排3座' , 'c') [ RunTime:0.000126s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('叶芊妘' , 'KS-01292' , '9排4座' , 'c') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李逸枫' , 'KS-01293' , '9排5座' , 'c') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈玥薇' , 'KS-01294' , '9排6座' , 'c') [ RunTime:0.000150s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王梓宸' , 'KS-01295' , '9排7座' , 'c') [ RunTime:0.000253s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈予欣' , 'KS-01296' , '9排8座' , 'c') [ RunTime:0.000250s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('程亭' , 'KS-01297' , '9排9座' , 'c') [ RunTime:0.000234s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('薛诚韵' , 'KS-01298' , '9排10座' , 'c') [ RunTime:0.000213s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐心月' , 'KS-01299' , '9排11座' , 'c') [ RunTime:0.000172s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('贾天宇' , 'KS-01300' , '9排12座' , 'c') [ RunTime:0.000165s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杜昊铖' , 'KS-01301' , '9排13座' , 'c') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('Lim Yin Shuen' , 'KS-01302' , '9排14座' , 'c') [ RunTime:0.000147s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('Lim Yin Rui' , 'KS-01303' , '9排15座' , 'c') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金徵羽' , 'KS-01304' , '9排16座' , 'c') [ RunTime:0.000137s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王樊浩' , 'KS-01305' , '9排17座' , 'c') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('石子宸' , 'KS-01306' , '9排18座' , 'c') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高乐欣' , 'KS-01307' , '9排19座' , 'd') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘雨萱' , 'KS-01308' , '9排20座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('何羽' , 'KS-01309' , '9排21座' , 'd') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李浩天' , 'KS-01310' , '9排22座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈砺' , 'KS-01311' , '9排23座' , 'd') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('黄建榕' , 'KS-01312' , '9排24座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张家合' , 'KS-01313' , '9排25座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('謝艾瓅' , 'KS-01314' , '9排26座' , 'd') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('謝艾睿' , 'KS-01315' , '9排27座' , 'd') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王灏然' , 'KS-01316' , '9排28座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('章过一' , 'KS-01317' , '9排29座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周宸瑜' , 'KS-01318' , '9排30座' , 'd') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('黄新悦' , 'KS-01319' , '9排31座' , 'd') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王玮' , 'KS-01320' , '9排32座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨陈锟' , 'KS-01321' , '9排33座' , 'd') [ RunTime:0.000171s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈睿轩' , 'KS-01322' , '9排34座' , 'd') [ RunTime:0.000196s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王敏滔' , 'KS-01323' , '9排35座' , 'd') [ RunTime:0.000248s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('丁欣蕊' , 'KS-01324' , '9排36座' , 'd') [ RunTime:0.000229s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金思雅' , 'KS-01325' , '10排1座' , 'c') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高崔竣' , 'KS-01326' , '10排2座' , 'c') [ RunTime:0.000177s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐景烽' , 'KS-01327' , '10排3座' , 'c') [ RunTime:0.000143s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('舒逸航' , 'KS-01328' , '10排4座' , 'c') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('胡欣晨' , 'KS-01329' , '10排5座' , 'c') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('边颖洁' , 'KS-01330' , '10排6座' , 'c') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李泽熙' , 'KS-01331' , '10排7座' , 'c') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钱梦洁' , 'KS-01332' , '10排8座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张珂瑜' , 'KS-01333' , '10排9座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孟雨谦' , 'KS-01334' , '10排10座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘高晟' , 'KS-01335' , '10排11座' , 'c') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱方睿' , 'KS-01336' , '10排12座' , 'c') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨易凡' , 'KS-01337' , '10排13座' , 'c') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金鲁乔' , 'KS-01338' , '10排14座' , 'c') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('庞程轩' , 'KS-01339' , '10排15座' , 'c') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('余皓程' , 'KS-01340' , '10排16座' , 'c') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨成' , 'KS-01341' , '10排17座' , 'c') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金尚博' , 'KS-01342' , '10排18座' , 'c') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑熙杰' , 'KS-01343' , '10排19座' , 'd') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱楷文' , 'KS-01344' , '10排20座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵焕然' , 'KS-01345' , '10排21座' , 'd') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('卜宇霄' , 'KS-01346' , '10排22座' , 'd') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高睿柯' , 'KS-01347' , '10排23座' , 'd') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王煜宸' , 'KS-01348' , '10排24座' , 'd') [ RunTime:0.000222s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金懿佳' , 'KS-01349' , '10排25座' , 'd') [ RunTime:0.000211s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵一涵' , 'KS-01350' , '10排26座' , 'd') [ RunTime:0.000179s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张泽宸' , 'KS-01351' , '10排27座' , 'd') [ RunTime:0.000195s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('尹伊梦' , 'KS-01352' , '10排28座' , 'd') [ RunTime:0.000243s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张绾晴' , 'KS-01353' , '10排29座' , 'd') [ RunTime:0.000289s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金昊泽' , 'KS-01354' , '10排30座' , 'd') [ RunTime:0.000267s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('肖森' , 'KS-01355' , '10排31座' , 'd') [ RunTime:0.000195s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('肖林' , 'KS-01356' , '10排32座' , 'd') [ RunTime:0.000190s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('乔星博' , 'KS-01357' , '10排33座' , 'd') [ RunTime:0.000247s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴一帆' , 'KS-01358' , '10排34座' , 'd') [ RunTime:0.000202s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('兰雅轩' , 'KS-01359' , '10排35座' , 'd') [ RunTime:0.000181s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('蒯辰轩' , 'KS-01360' , '10排36座' , 'd') [ RunTime:0.000168s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('任洛楷' , 'KS-01361' , '11排1座' , 'e') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('马子宸' , 'KS-01362' , '11排2座' , 'e') [ RunTime:0.000142s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王宸月' , 'KS-01363' , '11排3座' , 'e') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钱福林' , 'KS-01364' , '11排4座' , 'e') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曾铂轩' , 'KS-01365' , '11排5座' , 'e') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('卢逸萱' , 'KS-01366' , '11排6座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('梁新宇' , 'KS-01367' , '11排7座' , 'e') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陆瑾萱' , 'KS-01368' , '11排8座' , 'e') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周锦怡' , 'KS-01369' , '11排9座' , 'e') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钱港杰' , 'KS-01370' , '11排10座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙一涵' , 'KS-01371' , '11排11座' , 'e') [ RunTime:0.000211s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('申雨卉' , 'KS-01372' , '11排12座' , 'e') [ RunTime:0.000188s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周璇' , 'KS-01373' , '11排13座' , 'e') [ RunTime:0.000221s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('何许悦' , 'KS-01374' , '11排14座' , 'e') [ RunTime:0.000179s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴桐雨' , 'KS-01375' , '11排15座' , 'e') [ RunTime:0.000168s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('冯奕凡' , 'KS-01376' , '11排16座' , 'e') [ RunTime:0.000175s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈星泽' , 'KS-01377' , '11排17座' , 'e') [ RunTime:0.000158s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宋煜祺' , 'KS-01378' , '11排18座' , 'e') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谭皓轩' , 'KS-01379' , '11排19座' , 'f') [ RunTime:0.000154s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('殷妙蕊' , 'KS-01380' , '11排20座' , 'f') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('程梓瑶' , 'KS-01381' , '11排21座' , 'f') [ RunTime:0.000154s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张梓琳' , 'KS-01382' , '11排22座' , 'f') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('镇子轩' , 'KS-01383' , '11排23座' , 'f') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王思淼' , 'KS-01384' , '11排24座' , 'f') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('符祐玚' , 'KS-01385' , '11排25座' , 'f') [ RunTime:0.000151s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('任益衡' , 'KS-01386' , '11排26座' , 'f') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陶文浩' , 'KS-01387' , '11排27座' , 'f') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴泽楷' , 'KS-01388' , '11排28座' , 'f') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈昕宇' , 'KS-01389' , '11排29座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙浩铭' , 'KS-01390' , '11排30座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李禹霖' , 'KS-01391' , '11排31座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周梓轶' , 'KS-01392' , '11排32座' , 'f') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈俊璋' , 'KS-01393' , '11排33座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李逸凡' , 'KS-01394' , '11排34座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王浩铭' , 'KS-01395' , '11排35座' , 'f') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张家硕' , 'KS-01396' , '11排36座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑家润' , 'KS-01397' , '12排1座' , 'e') [ RunTime:0.000204s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘翼萱' , 'KS-01398' , '12排2座' , 'e') [ RunTime:0.000235s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('林嘉倪' , 'KS-01399' , '12排3座' , 'e') [ RunTime:0.000201s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张晟' , 'KS-01400' , '12排4座' , 'e') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('许思淇' , 'KS-01401' , '12排5座' , 'e') [ RunTime:0.000172s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('原楚悦' , 'KS-01402' , '12排6座' , 'e') [ RunTime:0.000259s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('潘嘉琪' , 'KS-01403' , '12排7座' , 'e') [ RunTime:0.000233s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('严嘉乐' , 'KS-01404' , '12排8座' , 'e') [ RunTime:0.000228s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('叶康浩' , 'KS-01405' , '12排9座' , 'e') [ RunTime:0.000481s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('闫汐垚' , 'KS-01406' , '12排10座' , 'e') [ RunTime:0.000215s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('丁格瑞' , 'KS-01407' , '12排11座' , 'e') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('申家宇' , 'KS-01408' , '12排12座' , 'e') [ RunTime:0.000207s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('林嘉璐' , 'KS-01409' , '12排13座' , 'e') [ RunTime:0.000236s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('桂新越' , 'KS-01410' , '12排14座' , 'e') [ RunTime:0.000268s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('裴玲珑' , 'KS-01411' , '12排15座' , 'e') [ RunTime:0.000176s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘是荃' , 'KS-01412' , '12排16座' , 'e') [ RunTime:0.000170s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李钰恩' , 'KS-01413' , '12排17座' , 'e') [ RunTime:0.000142s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('崔诗晗' , 'KS-01414' , '12排18座' , 'e') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王优' , 'KS-01415' , '12排19座' , 'f') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('尤若熙' , 'KS-01416' , '12排20座' , 'f') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹俊浩' , 'KS-01417' , '12排21座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('雷思齐' , 'KS-01418' , '12排22座' , 'f') [ RunTime:0.000168s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宣淑媛' , 'KS-01419' , '12排23座' , 'f') [ RunTime:0.000199s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谢筱颖' , 'KS-01420' , '12排24座' , 'f') [ RunTime:0.000210s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('黄佳祺' , 'KS-01421' , '12排25座' , 'f') [ RunTime:0.000191s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('袁喆' , 'KS-01422' , '12排26座' , 'f') [ RunTime:0.000163s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王芷亿' , 'KS-01423' , '12排27座' , 'f') [ RunTime:0.000173s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘书语' , 'KS-01424' , '12排28座' , 'f') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('闻泽优' , 'KS-01425' , '12排29座' , 'f') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王浩阳' , 'KS-01426' , '12排30座' , 'f') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈子君' , 'KS-01427' , '12排31座' , 'f') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('崔锦程' , 'KS-01428' , '12排32座' , 'f') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李彦雯' , 'KS-01429' , '12排33座' , 'f') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('胡君浩' , 'KS-01430' , '12排34座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王铭辰' , 'KS-01431' , '12排35座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李歆恬' , 'KS-01432' , '12排36座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈祈嘉' , 'KS-01433' , '13排1座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张欣然' , 'KS-01434' , '13排2座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('鲁思野' , 'KS-01435' , '13排3座' , 'e') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('颜睿' , 'KS-01436' , '13排4座' , 'e') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('廖可欣' , 'KS-01437' , '13排5座' , 'e') [ RunTime:0.000151s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵一凡' , 'KS-01438' , '13排6座' , 'e') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('仝钰麟' , 'KS-01439' , '13排7座' , 'e') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('翟叙源' , 'KS-01440' , '13排8座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('叶子轩' , 'KS-01441' , '13排9座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王梓瑄' , 'KS-01442' , '13排10座' , 'e') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('史清源' , 'KS-01443' , '13排11座' , 'e') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李怡璇' , 'KS-01444' , '13排12座' , 'e') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张熙桐' , 'KS-01445' , '13排13座' , 'e') [ RunTime:0.000212s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张熙宥' , 'KS-01446' , '13排14座' , 'e') [ RunTime:0.000209s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张桓' , 'KS-01447' , '13排15座' , 'e') [ RunTime:0.000223s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('尹晨曦' , 'KS-01448' , '13排16座' , 'e') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金祥宇' , 'KS-01449' , '13排17座' , 'e') [ RunTime:0.000143s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('费乐曦' , 'KS-01450' , '13排18座' , 'e') [ RunTime:0.000143s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾思睿' , 'KS-01451' , '13排19座' , 'f') [ RunTime:0.000171s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹博雅' , 'KS-01452' , '13排20座' , 'f') [ RunTime:0.000154s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱可馨' , 'KS-01453' , '13排21座' , 'f') [ RunTime:0.000203s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张继淋' , 'KS-01454' , '13排22座' , 'f') [ RunTime:0.000181s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('苏致远' , 'KS-01455' , '13排23座' , 'f') [ RunTime:0.000173s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金苡帆' , 'KS-01456' , '13排24座' , 'f') [ RunTime:0.000139s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘羿绮' , 'KS-01457' , '13排25座' , 'f') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('衡熙然' , 'KS-01458' , '13排26座' , 'f') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('邓杰仁' , 'KS-01459' , '13排27座' , 'f') [ RunTime:0.000169s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈煜博' , 'KS-01460' , '13排28座' , 'f') [ RunTime:0.000148s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘城熹' , 'KS-01461' , '13排29座' , 'f') [ RunTime:0.000158s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王辰轩' , 'KS-01462' , '13排30座' , 'f') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('方申同' , 'KS-01463' , '13排31座' , 'f') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘晋豪' , 'KS-01464' , '13排32座' , 'f') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('尹文杰' , 'KS-01465' , '13排33座' , 'f') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('牛智博' , 'KS-01466' , '13排34座' , 'f') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('汪佳钰' , 'KS-01467' , '13排35座' , 'f') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('包希妍' , 'KS-01468' , '13排36座' , 'f') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('靳煦浛' , 'KS-01469' , '14排1座' , 'e') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱子渝' , 'KS-01470' , '14排2座' , 'e') [ RunTime:0.000210s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('顾智宸' , 'KS-01471' , '14排3座' , 'e') [ RunTime:0.000185s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('董逸帆' , 'KS-01472' , '14排4座' , 'e') [ RunTime:0.000207s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('汤谨瑛' , 'KS-01473' , '14排5座' , 'e') [ RunTime:0.000182s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张昌汉' , 'KS-01474' , '14排6座' , 'e') [ RunTime:0.000186s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('代言' , 'KS-01475' , '14排7座' , 'e') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵林铠' , 'KS-01476' , '14排8座' , 'e') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨沐易' , 'KS-01477' , '14排9座' , 'e') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('倪梓竣' , 'KS-01478' , '14排10座' , 'e') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐怡涵' , 'KS-01479' , '14排11座' , 'e') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高子熙' , 'KS-01480' , '14排12座' , 'e') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('柯欣妤' , 'KS-01481' , '14排13座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('兰昕' , 'KS-01482' , '14排14座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘戢斌' , 'KS-01483' , '14排15座' , 'e') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘子璇' , 'KS-01484' , '14排16座' , 'e') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王刘苏' , 'KS-01485' , '14排17座' , 'e') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈泯含' , 'KS-01486' , '14排18座' , 'e') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('滕曼竹' , 'KS-01487' , '14排19座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('章亦晨' , 'KS-01488' , '14排20座' , 'f') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴皓扬' , 'KS-01489' , '14排21座' , 'f') [ RunTime:0.000126s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金思辰' , 'KS-01490' , '14排22座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑腾安' , 'KS-01491' , '14排23座' , 'f') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宋子琳' , 'KS-01492' , '14排24座' , 'f') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('胡嘉牧' , 'KS-01493' , '14排25座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('豆卿容' , 'KS-01494' , '14排26座' , 'f') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴浚豪' , 'KS-01495' , '14排27座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('林彧熙' , 'KS-01496' , '14排28座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('胡智锋' , 'KS-01497' , '14排29座' , 'f') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨雨航' , 'KS-01498' , '14排30座' , 'f') [ RunTime:0.000217s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曹欣睿' , 'KS-01499' , '14排31座' , 'f') [ RunTime:0.000212s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('俞依晨' , 'KS-01500' , '14排32座' , 'f') [ RunTime:0.000232s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑歆媛' , 'KS-01501' , '14排33座' , 'f') [ RunTime:0.000163s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('翁燊杨' , 'KS-01502' , '14排34座' , 'f') [ RunTime:0.000148s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('唐雨萱' , 'KS-01503' , '14排35座' , 'f') [ RunTime:0.000144s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('袁紫茼' , 'KS-01504' , '14排36座' , 'f') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李叶晴' , 'KS-01505' , '15排1座' , 'e') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曾子涵' , 'KS-01506' , '15排2座' , 'e') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴骏航' , 'KS-01507' , '15排3座' , 'e') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱雨婧' , 'KS-01508' , '15排4座' , 'e') [ RunTime:0.000161s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李承轩' , 'KS-01509' , '15排5座' , 'e') [ RunTime:0.000245s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈梓琪' , 'KS-01510' , '15排6座' , 'e') [ RunTime:0.000246s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐兆阳' , 'KS-01511' , '15排7座' , 'e') [ RunTime:0.000212s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('林昌绾' , 'KS-01512' , '15排8座' , 'e') [ RunTime:0.000184s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙一凡' , 'KS-01513' , '15排9座' , 'e') [ RunTime:0.000169s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('苏语晨' , 'KS-01514' , '15排10座' , 'e') [ RunTime:0.000280s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李睿' , 'KS-01515' , '15排11座' , 'e') [ RunTime:0.000180s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('范朱宸' , 'KS-01516' , '15排12座' , 'e') [ RunTime:0.000157s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高梓铭' , 'KS-01517' , '15排13座' , 'e') [ RunTime:0.000166s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('潘奕杨' , 'KS-01518' , '15排14座' , 'e') [ RunTime:0.000164s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴佳璇' , 'KS-01519' , '15排15座' , 'e') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴奕辰' , 'KS-01520' , '15排16座' , 'e') [ RunTime:0.000142s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('竺宇泽' , 'KS-01521' , '15排17座' , 'e') [ RunTime:0.000202s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('沈子轩' , 'KS-01522' , '15排18座' , 'e') [ RunTime:0.000182s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('邹沁妍' , 'KS-01523' , '15排19座' , 'f') [ RunTime:0.000236s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('施文宣' , 'KS-01524' , '15排20座' , 'f') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘滨语' , 'KS-01525' , '15排21座' , 'f') [ RunTime:0.000146s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑凯芯' , 'KS-01526' , '15排22座' , 'f') [ RunTime:0.000141s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吴雨伦' , 'KS-01527' , '15排23座' , 'f') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李之涵' , 'KS-01528' , '15排24座' , 'f') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陶哲轩' , 'KS-01529' , '15排25座' , 'f') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐一霏' , 'KS-01530' , '15排26座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李芷萱' , 'KS-01531' , '15排27座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张程瑞' , 'KS-01532' , '15排28座' , 'f') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王梓旭' , 'KS-01533' , '15排29座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('洪瑞' , 'KS-01534' , '15排30座' , 'f') [ RunTime:0.000162s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('马文昕' , 'KS-01535' , '15排31座' , 'f') [ RunTime:0.000158s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('汪言' , 'KS-01536' , '15排32座' , 'f') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('苏祎璟' , 'KS-01537' , '15排33座' , 'f') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李沐曦' , 'KS-01538' , '15排34座' , 'f') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王梦琪' , 'KS-01539' , '15排35座' , 'f') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱天翊' , 'KS-01540' , '15排36座' , 'f') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谢梓怡' , 'KS-01541' , '16排1座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('胡致高' , 'KS-01542' , '16排2座' , 'g') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李文轩' , 'KS-01543' , '16排3座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('井德财' , 'KS-01544' , '16排4座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李常睿' , 'KS-01545' , '16排5座' , 'g') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐梓宸' , 'KS-01546' , '16排6座' , 'g') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨梦洁' , 'KS-01547' , '16排7座' , 'g') [ RunTime:0.000126s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王国瑞' , 'KS-01548' , '16排8座' , 'g') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('官韬奇' , 'KS-01549' , '16排9座' , 'g') [ RunTime:0.000186s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李俊楠' , 'KS-01550' , '16排10座' , 'g') [ RunTime:0.000195s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵之铖' , 'KS-01551' , '16排11座' , 'g') [ RunTime:0.000185s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('卢昭汭' , 'KS-01552' , '16排12座' , 'g') [ RunTime:0.000176s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘博涛' , 'KS-01553' , '16排13座' , 'g') [ RunTime:0.000167s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('蔡昊宸' , 'KS-01554' , '16排14座' , 'g') [ RunTime:0.000139s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('高湛森' , 'KS-01555' , '16排15座' , 'g') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李可可' , 'KS-01556' , '16排16座' , 'g') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('戴熙知' , 'KS-01557' , '16排17座' , 'g') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王铂涵' , 'KS-01558' , '16排18座' , 'g') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('卞稚翔' , 'KS-01559' , '16排19座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙博' , 'KS-01560' , '16排20座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈启信' , 'KS-01561' , '16排21座' , 'h') [ RunTime:0.000283s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王德文' , 'KS-01562' , '16排22座' , 'h') [ RunTime:0.000310s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘文浩' , 'KS-01563' , '16排23座' , 'h') [ RunTime:0.000327s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈泓宇' , 'KS-01564' , '16排24座' , 'h') [ RunTime:0.000423s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘梓杰' , 'KS-01565' , '16排25座' , 'h') [ RunTime:0.000208s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨子睿' , 'KS-01566' , '16排26座' , 'h') [ RunTime:0.000263s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陆飞羽' , 'KS-01567' , '16排27座' , 'h') [ RunTime:0.000219s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('葛浩宇' , 'KS-01568' , '16排28座' , 'h') [ RunTime:0.000176s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱芊艺' , 'KS-01569' , '16排29座' , 'h') [ RunTime:0.000170s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('尤思涵' , 'KS-01570' , '16排30座' , 'h') [ RunTime:0.000212s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('阚恩颂' , 'KS-01571' , '16排31座' , 'h') [ RunTime:0.000195s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('蒋妮可' , 'KS-01572' , '16排32座' , 'h') [ RunTime:0.000236s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('汤艺芃' , 'KS-01573' , '16排33座' , 'h') [ RunTime:0.000169s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈静怡' , 'KS-01574' , '16排34座' , 'h') [ RunTime:0.000146s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑景元' , 'KS-01575' , '16排35座' , 'h') [ RunTime:0.000177s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('罗优优' , 'KS-01576' , '16排36座' , 'h') [ RunTime:0.000155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('吕宇轩' , 'KS-01577' , '17排1座' , 'g') [ RunTime:0.000137s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈雨泽' , 'KS-01578' , '17排2座' , 'g') [ RunTime:0.000134s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郑富荣' , 'KS-01579' , '17排3座' , 'g') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('胡予善' , 'KS-01580' , '17排4座' , 'g') [ RunTime:0.000159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱杪' , 'KS-01581' , '17排5座' , 'g') [ RunTime:0.000152s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨李彬' , 'KS-01582' , '17排6座' , 'g') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐煜博' , 'KS-01583' , '17排7座' , 'g') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('赵晨曦' , 'KS-01584' , '17排8座' , 'g') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈誉萱' , 'KS-01585' , '17排9座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('叶泓博' , 'KS-01586' , '17排10座' , 'g') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张洋海' , 'KS-01587' , '17排11座' , 'g') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('孙诗怡' , 'KS-01588' , '17排12座' , 'g') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陆逸宸' , 'KS-01589' , '17排13座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈柏叡' , 'KS-01590' , '17排14座' , 'g') [ RunTime:0.000142s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('钟小朗' , 'KS-01591' , '17排15座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('惠子墨' , 'KS-01592' , '17排16座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈唐润' , 'KS-01593' , '17排17座' , 'g') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘雨泽' , 'KS-01594' , '17排18座' , 'g') [ RunTime:0.000184s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨诗航' , 'KS-01595' , '17排19座' , 'h') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宋魏欣' , 'KS-01596' , '17排20座' , 'h') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('朱子恒' , 'KS-01597' , '17排21座' , 'h') [ RunTime:0.000207s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杨乐' , 'KS-01637' , '17排22座' , 'h') [ RunTime:0.000218s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('汪翰霖' , 'KS-01638' , '17排23座' , 'h') [ RunTime:0.000182s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐昕妍' , 'KS-01639' , '17排24座' , 'h') [ RunTime:0.000152s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李梓暄' , 'KS-01640' , '17排25座' , 'h') [ RunTime:0.000151s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王梓涵' , 'KS-01641' , '17排26座' , 'h') [ RunTime:0.000160s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('王译卿' , 'KS-01642' , '17排27座' , 'h') [ RunTime:0.000154s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('韦雨成' , 'KS-01643' , '17排28座' , 'h') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('' , '' , '17排29座' , 'h') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('' , '' , '17排30座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('' , '' , '17排31座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('' , '' , '17排32座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('' , '' , '17排33座' , 'h') [ RunTime:0.000180s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘雨微' , 'KS-01598' , '17排34座' , 'h') [ RunTime:0.000152s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('候苏皖' , 'KS-01599' , '17排35座' , 'h') [ RunTime:0.000175s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('任欢' , 'KS-01600' , '17排36座' , 'h') [ RunTime:0.000161s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李楠楠' , 'KS-01601' , '18排1座' , 'g') [ RunTime:0.000183s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谢雨蒙' , 'KS-01602' , '18排2座' , 'g') [ RunTime:0.000144s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张致远' , 'KS-01603' , '18排3座' , 'g') [ RunTime:0.000135s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('潘安菊' , 'KS-01604' , '18排4座' , 'g') [ RunTime:0.000132s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('黄裕旋' , 'KS-01605' , '18排5座' , 'g') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘永梅' , 'KS-01606' , '18排6座' , 'g') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('谢佳霖' , 'KS-01607' , '18排7座' , 'g') [ RunTime:0.000162s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('马珏' , 'KS-01608' , '18排8座' , 'g') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('梁珊' , 'KS-01609' , '18排9座' , 'g') [ RunTime:0.000156s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陈玲' , 'KS-01610' , '18排10座' , 'g') [ RunTime:0.000184s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('邱琳' , 'KS-01611' , '18排11座' , 'g') [ RunTime:0.000220s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('陆应文' , 'KS-01612' , '18排12座' , 'g') [ RunTime:0.000243s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐彩云' , 'KS-02613' , '18排13座' , 'g') [ RunTime:0.000177s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张若然' , 'KS-02614' , '18排14座' , 'g') [ RunTime:0.000178s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('刘路倩' , 'KS-02615' , '18排15座' , 'g') [ RunTime:0.000150s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张方圆' , 'KS-02616' , '18排16座' , 'g') [ RunTime:0.000136s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('田佳丽' , 'KS-02617' , '18排17座' , 'g') [ RunTime:0.000133s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('方怡佳' , 'KS-02618' , '18排18座' , 'g') [ RunTime:0.000131s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('葛欢欢' , 'KS-02619' , '18排19座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('龚麟龙' , 'KS-02620' , '18排20座' , 'h') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('张燕' , 'KS-02621' , '18排21座' , 'h') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('黄学初' , 'KS-02622' , '18排22座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('李俊杰' , 'KS-02623' , '18排23座' , 'h') [ RunTime:0.000130s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('郭东波' , 'KS-02624' , '18排24座' , 'h') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('程孟珠' , 'KS-02625' , '18排25座' , 'h') [ RunTime:0.000153s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周文斌' , 'KS-02626' , '18排26座' , 'h') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('金红' , 'KS-02627' , '18排27座' , 'h') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('戈园园' , 'KS-02628' , '18排28座' , 'h') [ RunTime:0.000138s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('唐洁' , 'KS-02629' , '18排29座' , 'h') [ RunTime:0.000129s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('楚思佳' , 'KS-02630' , '18排30座' , 'h') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('宋艳杰' , 'KS-02631' , '18排31座' , 'h') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('戴佳红' , 'KS-02632' , '18排32座' , 'h') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('周立萍' , 'KS-02633' , '18排33座' , 'h') [ RunTime:0.000128s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('徐小霜' , 'KS-02634' , '18排34座' , 'h') [ RunTime:0.000127s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('曾婷婷' , 'KS-02635' , '18排35座' , 'h') [ RunTime:0.000146s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region`) VALUES ('杜斌' , 'KS-02636' , '18排36座' , 'h') [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"file\":\"\\/uploads\\/20191109\\/ae76c495fc5edf01507b5877777f750c.xlsx\"}' , '/admin.php/candidate/import' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36' , '0.0.0.0' , 1573229159) [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:05:59+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573229149243
+[运行时间：0.065255s] [吞吐率：15.32req/s] [内存消耗：4,357.79kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001286s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573229149243',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002137s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:06:10+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=10&limit=10&filter=%7B%7D&op=%7B%7D&_=1573229149244
+[运行时间：0.060332s] [吞吐率：16.58req/s] [内存消耗：4,357.80kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001324s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '10',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573229149244',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001854s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000121s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 10,10 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:06:12+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573229149245
+[运行时间：0.059533s] [吞吐率：16.80req/s] [内存消耗：4,357.79kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001328s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573229149245',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001845s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000104s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:23:41+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?ref=addtabs
+[运行时间：0.077804s] [吞吐率：12.85req/s] [内存消耗：3,986.33kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013204s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002489s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:23:42+08:00 ] 0.0.0.0 GET fa/admin.php/index/index
+[运行时间：0.117180s] [吞吐率：8.53req/s] [内存消耗：4,487.71kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000075s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002022s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002005s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:23:42+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?addtabs=1
+[运行时间：0.084559s] [吞吐率：11.83req/s] [内存消耗：4,313.72kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000180s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008129s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002101s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'candidate' LIMIT 1 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:23:42+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=index&v=1573230221
+[运行时间：0.074627s] [吞吐率：13.40req/s] [内存消耗：3,428.43kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003817s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1573230221',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004880s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000467s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-09T00:23:42+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573230222
+[运行时间：0.081821s] [吞吐率：12.22req/s] [内存消耗：3,424.09kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006548s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573230222',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005029s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-09T00:23:42+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?addtabs=1
+[运行时间：0.098327s] [吞吐率：10.17req/s] [内存消耗：4,387.46kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006436s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004123s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000146s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:23:42+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573230222256
+[运行时间：0.094319s] [吞吐率：10.60req/s] [内存消耗：4,357.79kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000098s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006810s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573230222256',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002089s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-11-09T00:23:42+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=general.config&v=1573230222
+[运行时间：0.055171s] [吞吐率：18.13req/s] [内存消耗：3,427.07kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001347s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=c5c20mcrl68ekm7k4nnmu0fruf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1573181275,1573228263; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1573228263',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1573230222',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004418s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File

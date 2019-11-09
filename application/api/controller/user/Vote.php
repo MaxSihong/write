@@ -35,6 +35,8 @@ class Vote extends Base
             'id' => $user_info['id'],
         ];
 
+        $root = Request::instance()->domain();
+        $user_info['background_music'] = $root . '/music/background.mp3';
         $user_info['qrcode_url'] = (new QRCodeEN())->getCode(json_encode($data)); // 生成二维码
 
         parent::success('success', $user_info, 200, 'json');

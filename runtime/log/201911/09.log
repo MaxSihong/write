@@ -5042,3 +5042,44 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `fa_voting_record` [ RunTime:0.000621s ]
 [ sql ] [ SQL ] SELECT * FROM `fa_voting_record` WHERE  `user_id` = 1  AND `voted` = '2019-11-09' [ RunTime:0.000329s ]
 [ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2019-11-09T08:59:27+08:00 ] 127.0.0.1 GET fa/api/user/vote/1
+[运行时间：0.055675s] [吞吐率：17.96req/s] [内存消耗：3,388.82kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000251s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001458s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.vote',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'token' => 'e1f059b83080ac4648b1518fceeea687',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1a103f3a-6669-4089-beda-146ef6b3bced',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '46',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002236s ]
+[ info ] [ RUN ] app\api\controller\user\Vote->get[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Vote.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000850s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url` FROM `fa_user` WHERE  `candidate_id` <> 0 ORDER BY `number` DESC [ RunTime:0.000377s ]

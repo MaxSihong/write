@@ -120,6 +120,14 @@ class Vote extends Base
                     'status' => 1
                 ];
                 parent::success('success', $data, 200, 'json');
+            } elseif ($result === 'noData2') {
+                $user = UserModel::get($user_info['id']);
+                $data = [
+                    'frequency' => $user['frequency'], // 剩余投票次数
+                    'is_complete' => $user['is_complete'], // 是否填写完整信息
+                    'status' => 2
+                ];
+                parent::success('success', $data, 200, 'json');
             } elseif ($result === 'no') { // 如果该用户没有投票机会，但是填写完整信息
                 $user = UserModel::get($user_info['id']);
                 $data = [
@@ -211,6 +219,9 @@ class Vote extends Base
     {
         if ($user_info['frequency'] == 0 && $user_info['is_complete'] == 0) {
             return 'noData';
+        }
+        if ($user_info['frequency'] == 0 && $user_info['is_complete'] == 1) {
+            return 'noData2';
         }
         if ($user_info['frequency'] == 0) {
             return 'no';

@@ -73,7 +73,7 @@ class User extends Base
         $candidate = (new CandidateModel())->where('name', $data['name']) // 姓名
             ->where('candidate_number', $data['candidate_number']) // 考号
             ->find();
-        if (!$result) {
+        if (!$candidate) {
             parent::error('error', '信息错误请重试', 400, 'json');
         }
 
@@ -82,13 +82,13 @@ class User extends Base
         }
 
         // 保存手机号 并根user关联
-        $result = (new CandidateModel())->save([
+        (new CandidateModel())->save([
             'phone' => $data['phone'],
             'user_id' => $cache['id']
         ], ['id' => $candidate['id']]);
 
         // 考生根用户关联
-        $result = (new UserModel())->save([
+        (new UserModel())->save([
             'name' => $data['name'],
             'candidate_id' => $candidate['id'],
             'candidate_number' => $candidate['candidate_number'],

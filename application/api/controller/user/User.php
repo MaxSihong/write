@@ -74,7 +74,11 @@ class User extends Base
             ->where('candidate_number', $data['candidate_number']) // 考号
             ->find();
         if (!$result) {
-            parent::error('error', '信息错误，请核实', 400, 'json');
+            parent::error('error', '信息错误请重试', 400, 'json');
+        }
+
+        if ($candidate['user_id'] !== null) {
+            parent::error('error', '不能重复认证', 400, 'json');
         }
 
         // 保存手机号 并根user关联
@@ -82,18 +86,13 @@ class User extends Base
             'phone' => $data['phone'],
             'user_id' => $cache['id']
         ], ['id' => $candidate['id']]);
-        if (!$result) {
-            parent::error('error', '不能重复认证', 400, 'json');
-        }
 
         // 考生根用户关联
         $result = (new UserModel())->save([
+            'name' => $data['name'],
             'candidate_id' => $candidate['id'],
             'candidate_number' => $candidate['candidate_number'],
         ], ['id' => $cache['id']]);
-        if (!$result) {
-            parent::error('error', '不能重复认证', 400, 'json');
-        }
 
         parent::success('success', '认证成功', 200, 'json');
     }
@@ -114,15 +113,27 @@ class User extends Base
         $data['user_id'] = $cache['id'];
 
         (new UserInfoModel())->allowField(true)->save($data); // 保存用户完整信息
+        $user = UserInfoModel::get(['user_id' => $cache['id']]);
+        $user_info = UserModel::get($cache['id']);
 
-        // 更新用户信息完整状态 投票次数 姓名 手机号
-        Db::name('user')->where('id', $cache['id'])
-            ->update([
-                'is_complete' => 1,
-                'frequency' => Db::raw('frequency+' . 2),
-                'name' => $data['name'],
-                'phone' => $data['phone']
-            ]);
+        if ($user_info['candidate_id'] == null) { //不是考生
+            // 更新用户信息完整状态 投票次数 姓名 手机号
+            Db::name('user')->where('id', $cache['id'])
+                ->update([
+                    'is_complete' => 1,
+                    'frequency' => Db::raw('frequency+' . 2),
+                    'phone' => $data['phone'],
+                    'user_info_id' => $user['id'],
+                ]);
+        } else { // 考生
+            // 更新用户信息完整状态 投票次数 姓名 手机号
+            Db::name('user')->where('id', $cache['id'])
+                ->update([
+                    'is_complete' => 1,
+                    'frequency' => Db::raw('frequency+' . 2),
+                    'user_info_id' => $user['id'],
+                ]);
+        }
 
         parent::success('success', '保存成功', 200, 'json');
     }

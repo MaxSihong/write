@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:88:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/edit.html";i:1573225058;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:88:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/edit.html";i:1573294086;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -91,7 +91,7 @@
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Is_check'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-is_check" data-rule="required" class="form-control" name="row[is_check]" type="number" value="<?php echo htmlentities($row['is_check']); ?>">
+            <input id="c-is_check" data-rule="required" class="form-control" placeholder=" 0是未签到，1是已签到" name="row[is_check]" type="number" value="<?php echo htmlentities($row['is_check']); ?>">
         </div>
     </div>
     <input type="hidden" name="row[user_id]" value="<?php echo htmlentities($row['user_id']); ?>">

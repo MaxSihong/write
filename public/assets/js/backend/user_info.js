@@ -25,10 +25,10 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'user.id', title: __('用户ID')},
-                        {field: 'user.name', title: __('姓名')},
-                        {field: 'user.phone', title: __('手机号')},
-                        {field: 'judges', title: __('Judges')},
-                        {field: 'children', title: __('Children')},
+                        {field: 'name', title: __('姓名')},
+                        {field: 'phone', title: __('手机号')},
+                        {field: 'judges', title: __('您的孩子年龄')},
+                        // {field: 'children', title: __('您希望收到我们回访吗')},
                         // {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]

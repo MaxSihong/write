@@ -51,8 +51,6 @@ class UserInfo extends Backend
                 ->order($sort, $order)
                 ->limit($offset, $limit)
                 ->select();
-            Log::info('1234');
-            Log::info($list);
 
             $list = collection($list)->toArray();
             $result = array("total" => $total, "rows" => $list);

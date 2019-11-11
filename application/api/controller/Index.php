@@ -19,13 +19,13 @@ class Index extends Base
     {
         $data = (new UserModel())->where('candidate_id', '<>', 'null')
             ->order('number', 'desc')
-            ->field('id,name,number,candidate_number')
+            ->field('id,name,number,candidate_number,avatar_url')
             ->limit('10')
             ->select();
 
         // 排名
         for ($i = 0; $i < count($data); $i++) {
-            if ($i + 1 < 3) {
+            if ($i < 3) {
                 $data[$i]['status'] = $i + 1;
             }
             $data[$i]['ranking'] = $i + 1;

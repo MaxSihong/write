@@ -37,5 +37,6 @@ Route::group('', function () {
         Route::get('get_time', 'api/Index/getTime'); // 获取投票开始和结束时间
 
         Route::get('get_code', 'api/WCMiniProgram/getMPCode');
+        Route::get('get_wx_code/:id', 'api/WCMiniProgram/getWeChatCode');
     });
 });

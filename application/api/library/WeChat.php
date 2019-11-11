@@ -58,16 +58,16 @@ class WeChat extends Base
         return $result;
     }
 
-    public function getMPCode($url)
+    public function getMPCode($url, $id)
     {
-        $response = $this->app->app_code->getUnlimit('&id=1', [
-            'page' => $url
+        $response = $this->app->app_code->getUnlimit('id=' . $id, [
+            'page' => $url,
+            'width' => 500,
         ]);
-
-        $path = Request::instance()->domain();
+        return $response;
 
         if ($response instanceof \EasyWeChat\Kernel\Http\StreamResponse) {
-            $filename = $response->save(ROOT_PATH . 'public/wechat');
+           return $filename = $response->saveAs(ROOT_PATH . 'public/wechat', 'aa.png');
         }
 
     }

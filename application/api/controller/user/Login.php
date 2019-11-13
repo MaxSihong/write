@@ -15,6 +15,7 @@ class Login extends Base
     /**
      * 小程序登录
      * @throws \EasyWeChat\Kernel\Exceptions\InvalidConfigException
+     * @throws \think\exception\DbException
      */
     public function login()
     {

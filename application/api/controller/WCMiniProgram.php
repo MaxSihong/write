@@ -16,11 +16,4 @@ class WCMiniProgram extends Base
         ];
         return (new QRCodeEN())->getCode(json_encode($data));
     }
-
-    public function getWeChatCode($id)
-    {
-        $url = 'pages/PullTicket/PullTicket';
-        $result = (new WeChat())->getMPCode($url, $id);
-        return json_encode($result);
-    }
 }

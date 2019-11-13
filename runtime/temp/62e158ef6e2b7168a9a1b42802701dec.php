@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:89:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html";i:1573222569;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:89:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html";i:1573549060;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>

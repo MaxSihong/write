@@ -1,0 +1,411 @@
+---------------------------------------------------------------
+[ 2019-11-13T11:32:56+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.141199s] [吞吐率：7.08req/s] [内存消耗：3,761.38kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000269s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002916s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dc0dd34b-81ab-4782-adc5-68b750ee7a65',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003809s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000897s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.008015s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` IN (0,0,0,0,0,0,0) LIMIT 1 [ RunTime:0.001798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url` FROM `fa_candidate` ORDER BY `number` DESC LIMIT 10 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` IN (0,0,0,0,0,0,0) LIMIT 1 [ RunTime:0.000344s ]
+[ error ] [0]致命错误: Call to a member function eagerlyResultSet() on null[/Applications/MAMP/htdocs/fastadmin/thinkphp/library/think/Model.php:1929]
+---------------------------------------------------------------
+[ 2019-11-13T11:33:10+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.063756s] [吞吐率：15.68req/s] [内存消耗：3,393.67kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000464s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001505s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c22a5eaf-11ff-4e8a-934b-e8d634a45b88',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002397s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001646s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url` FROM `fa_candidate` ORDER BY `number` DESC LIMIT 10 [ RunTime:0.000893s ]
+---------------------------------------------------------------
+[ 2019-11-13T11:33:25+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.101743s] [吞吐率：9.83req/s] [内存消耗：3,631.43kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000281s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001767s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd206d32d-17bb-44a6-aa6d-1420515d706c',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003029s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001402s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001955s ]
+---------------------------------------------------------------
+[ 2019-11-13T11:33:58+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.077682s] [吞吐率：12.87req/s] [内存消耗：3,761.46kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000268s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002123s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3fa68915-3985-4a4b-87ed-7524ecbf867b',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002902s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` IN (0,0,0,0,0,0,0) LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url`,`user_id` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` IN (0,0,0,0,0,0,0) LIMIT 1 [ RunTime:0.000661s ]
+[ error ] [0]致命错误: Call to a member function eagerlyResultSet() on null[/Applications/MAMP/htdocs/fastadmin/thinkphp/library/think/Model.php:1929]
+---------------------------------------------------------------
+[ 2019-11-13T11:34:13+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.101573s] [吞吐率：9.85req/s] [内存消耗：3,951.11kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000263s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002355s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a5b307c2-2e40-4cae-802b-87c088a25e92',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003121s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` IN (0,0,0,0,0,0,0) LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url`,`user_id` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001638s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'[/Applications/MAMP/htdocs/fastadmin/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2019-11-13T11:36:42+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.083975s] [吞吐率：11.91req/s] [内存消耗：3,655.68kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001513s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '86d8e21d-bd01-47d7-b4f9-79ede51d6d94',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002180s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url`,`user_id` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001643s ]
+---------------------------------------------------------------
+[ 2019-11-13T11:37:45+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.078066s] [吞吐率：12.81req/s] [内存消耗：3,599.91kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000390s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001495s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '19d74925-893b-4c1f-8ea7-38a5527d9098',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002924s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000990s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`avatar_url`,`voted`,`frequency`,`candidate_id` FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url`,`user_id` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001163s ]
+---------------------------------------------------------------
+[ 2019-11-13T11:40:16+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.075140s] [吞吐率：13.31req/s] [内存消耗：3,599.91kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000316s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001632s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '731eed14-c9dc-46de-94a9-4ef06474728e',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002093s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`avatar_url`,`voted`,`frequency`,`candidate_id` FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url`,`user_id` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001476s ]
+---------------------------------------------------------------
+[ 2019-11-13T11:41:44+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.070708s] [吞吐率：14.14req/s] [内存消耗：3,413.95kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000252s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001485s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '310cce3b-2ffe-49e1-a3da-4613420b4e9c',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002830s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001183s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`avatar_url`,`voted`,`frequency`,`candidate_id` FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url`,`user_id` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`avatar_url`,`voted`,`frequency`,`candidate_id` FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000698s ]
+---------------------------------------------------------------
+[ 2019-11-13T11:42:00+08:00 ] 127.0.0.1 GET fa/api/user/mine
+[运行时间：0.064876s] [吞吐率：15.41req/s] [内存消耗：3,413.95kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001747s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'mine',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => '15552a878c484cc24947c65ecf35546c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '514b0b4e-81e5-4b9c-9ef9-e36711338160',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002434s ]
+[ info ] [ RUN ] app\api\controller\user\User->mine[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`avatar_url`,`voted`,`frequency`,`candidate_id` FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`number`,`candidate_number`,`avatar_url`,`user_id` FROM `fa_candidate` ORDER BY `number` DESC [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`avatar_url`,`voted`,`frequency`,`candidate_id` FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000541s ]

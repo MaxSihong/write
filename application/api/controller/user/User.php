@@ -3,12 +3,12 @@
 
 namespace app\api\controller\user;
 
-use app\api\library\Token;
-use app\api\model\User as UserModel;
-use app\api\model\Config as ConfigModel;
-use app\api\model\UserInfo as UserInfoModel;
-use app\api\model\Candidate as CandidateModel;
 use app\api\controller\Base;
+use app\api\library\Token;
+use app\api\model\Candidate as CandidateModel;
+use app\api\model\Config as ConfigModel;
+use app\api\model\User as UserModel;
+use app\api\model\UserInfo as UserInfoModel;
 use think\Db;
 use think\Request;
 
@@ -31,9 +31,9 @@ class User extends Base
         if ($user_info['candidate_id'] == null) { // 不是考生，则不需要排名
             $data = $user_info;
         } else {
-            $result = (new UserModel())->where('candidate_id', '<>', 'null')
+            $result = (new CandidateModel())->where(null)
                 ->order('number', 'desc')
-                ->field('id,name,avatar_url,voted,frequency,candidate_id,number')
+                ->field('id,name,number,candidate_number,avatar_url,user_id')
                 ->select();
 
             // 排名
@@ -43,9 +43,12 @@ class User extends Base
 
             $data = [];
             foreach ($result as $key => $value) {
-                if ($value['id'] == $cache['id']) {
+                if ($value['user_id'] == $cache['id']) {
                     unset($value['number']);
-                    $data = $value;
+                    $data = (new UserModel())->where('id', $cache['id'])
+                        ->field('id,name,avatar_url,voted,frequency,candidate_id')
+                        ->find();;
+                    $data['ranking'] = $value['ranking'];
                 }
             }
         }
@@ -71,8 +74,8 @@ class User extends Base
         }
 
         $candidate = (new CandidateModel())->where('name', $data['name']) // 姓名
-            ->where('candidate_number', $data['candidate_number']) // 考号
-            ->find();
+        ->where('candidate_number', $data['candidate_number']) // 考号
+        ->find();
         if (!$candidate) {
             parent::error('error', '信息错误请重试', 400, 'json');
         }
@@ -81,10 +84,12 @@ class User extends Base
             parent::error('error', '不能重复认证', 400, 'json');
         }
 
+        $user_info = UserModel::get($cache['id']);
         // 保存手机号 并根user关联
         (new CandidateModel())->save([
             'phone' => $data['phone'],
-            'user_id' => $cache['id']
+            'user_id' => $cache['id'],
+            'avatar_url' => $user_info['avatar_url'],
         ], ['id' => $candidate['id']]);
 
         // 考生根用户关联

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:88:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/edit.html";i:1573294086;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:88:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/edit.html";i:1573549743;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -95,18 +95,18 @@
         </div>
     </div>
     <input type="hidden" name="row[user_id]" value="<?php echo htmlentities($row['user_id']); ?>">
-<!--    <div class="form-group">-->
-<!--        <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_id'); ?>:</label>-->
-<!--        <div class="col-xs-12 col-sm-8">-->
-<!--            <input id="c-user_id" data-rule="required" data-source="user/user/index" data-field="nickname" class="form-control selectpage" name="row[user_id]" type="text" value="<?php echo htmlentities($row['user_id']); ?>">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="form-group">-->
-<!--        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Create_at'); ?>:</label>-->
-<!--        <div class="col-xs-12 col-sm-8">-->
-<!--            <input id="c-create_at" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_at]" type="text" value="<?php echo $row['create_at']?datetime($row['create_at']):''; ?>">-->
-<!--        </div>-->
-<!--    </div>-->
+    <!--    <div class="form-group">-->
+    <!--        <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_id'); ?>:</label>-->
+    <!--        <div class="col-xs-12 col-sm-8">-->
+    <!--            <input id="c-user_id" data-rule="required" data-source="user/user/index" data-field="nickname" class="form-control selectpage" name="row[user_id]" type="text" value="<?php echo htmlentities($row['user_id']); ?>">-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <div class="form-group">-->
+    <!--        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Create_at'); ?>:</label>-->
+    <!--        <div class="col-xs-12 col-sm-8">-->
+    <!--            <input id="c-create_at" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_at]" type="text" value="<?php echo $row['create_at']?datetime($row['create_at']):''; ?>">-->
+    <!--        </div>-->
+    <!--    </div>-->
     <div class="form-group layer-footer">
         <label class="control-label col-xs-12 col-sm-2"></label>
         <div class="col-xs-12 col-sm-8">

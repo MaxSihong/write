@@ -3,7 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="a382343a-6850-4266-b7e4-1b6cdcc75ddb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Candidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Candidate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/candidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/candidate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/candidate/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/candidate/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/candidate/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/candidate/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/controller/VotingRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/VotingRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/controller/WCMiniProgram.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/WCMiniProgram.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/controller/user/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/user/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/api/controller/user/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/user/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/controller/user/Vote.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/user/Vote.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/library/WeChat.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/library/WeChat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/model/Candidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/model/Candidate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/api/model/VotingRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/model/VotingRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201911/07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201911/07_cli.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201911/08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201911/09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201911/10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/62e158ef6e2b7168a9a1b42802701dec.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/62e158ef6e2b7168a9a1b42802701dec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/87841e0f77842ebff0b8092e01884fe6.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/87841e0f77842ebff0b8092e01884fe6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/e2ef1fb8516abdd423869d1173b7b567.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/e2ef1fb8516abdd423869d1173b7b567.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +133,12 @@
       <workItem from="1573278200597" duration="6804000" />
       <workItem from="1573391733602" duration="528000" />
       <workItem from="1573403732619" duration="36000" />
-      <workItem from="1573435803474" duration="480000" />
+      <workItem from="1573435803474" duration="1017000" />
+      <workItem from="1573482469782" duration="18000" />
+      <workItem from="1573526674773" duration="15036000" />
+      <workItem from="1573565349363" duration="234000" />
+      <workItem from="1573570264879" duration="25000" />
+      <workItem from="1573615222060" duration="2243000" />
     </task>
     <servers />
   </component>

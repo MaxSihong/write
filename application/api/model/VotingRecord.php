@@ -24,9 +24,9 @@ class VotingRecord extends Model
 
     ];
 
-    public function voted()
+    public function candidate()
     {
-        return $this->belongsTo('User', 'voted_id', 'id')
+        return $this->belongsTo('Candidate', 'voted_id', 'id')
             ->bind('name');
     }
 

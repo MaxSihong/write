@@ -26,7 +26,7 @@ Route::group('', function () {
             Route::get('candidate', 'api/user.user/candidate'); // 获取座位号等信息
 
             Route::get('vote', 'api/user.vote/index'); // 拉票
-            Route::get('vote/:id', 'api/user.vote/get'); // 助力页面 传用户ID
+            Route::get('vote/:id', 'api/user.vote/get'); // 助力页面 传考生ID
             Route::put('vote/:id', 'api/user.vote/boost'); // 投票
 
             Route::get('record/:status', 'api/VotingRecord/index'); // 0 获票 和 1 投票记录
@@ -36,7 +36,6 @@ Route::group('', function () {
 
         Route::get('get_time', 'api/Index/getTime'); // 获取投票开始和结束时间
 
-        Route::get('get_code', 'api/WCMiniProgram/getMPCode');
-        Route::get('get_wx_code/:id', 'api/WCMiniProgram/getWeChatCode');
+        Route::get('get_code', 'api/WCMiniProgram/getMPCode'); // 生成签到扫的二维码 (不需要使用)
     });
 });

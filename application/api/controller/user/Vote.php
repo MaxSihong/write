@@ -4,8 +4,10 @@
 namespace app\api\controller\user;
 
 use app\api\controller\Base;
-use app\api\library\QRCodeEN;
+use app\api\controller\Index;
 use app\api\library\Token;
+use app\api\library\WeChat;
+use app\api\model\Candidate as CandidateModel;
 use app\api\model\User as UserModel;
 use app\api\model\VotingRecord as VotingRecordModel;
 use think\Db;
@@ -31,13 +33,15 @@ class Vote extends Base
             parent::error('error', '您没有权限访问', 403, 'json');
         }
 
-        $data = [
-            'id' => $user_info['id'],
-        ];
-
         $root = Request::instance()->domain();
         $user_info['background_music'] = $root . '/music/background.mp3';
-        $user_info['qrcode_url'] = (new QRCodeEN())->getCode(json_encode($data)); // 生成二维码
+
+
+        $path = Request::instance()->domain();
+        $url = 'packageA/pages/boost/boost';
+        $result = (new WeChat())->getMPCode($url, $user_info['candidate_id']);
+        $result_url = $path . '/wechat/' . $result;
+        $user_info['qrcode_url'] = $result_url; // 生成二维码
 
         parent::success('success', $user_info, 200, 'json');
     }
@@ -51,12 +55,7 @@ class Vote extends Base
      */
     public function get($id)
     {
-        $user_info = UserModel::get($id);
-        if ($user_info['candidate_id'] == null) {
-            parent::error('error', '您没有权限访问', 403, 'json');
-        }
-
-        $data = (new UserModel())->where('candidate_id', '<>', 'null')
+        $data = (new CandidateModel())->where(null)
             ->order('number', 'desc')
             ->field('id,name,number,candidate_number,avatar_url')
             ->select();
@@ -78,6 +77,7 @@ class Vote extends Base
         }
 
         $root = Request::instance()->domain();
+        $new_data['candidate_number'] = Index::func_substr_replace($new_data['candidate_number']);
         $new_data['background_music'] = $root . '/music/background.mp3';
 
         parent::success('success', $new_data, 200, 'json');
@@ -101,11 +101,6 @@ class Vote extends Base
          * 6、返回成功状态 剩余投票次数 是否填写完整信息 （is_complete）
          */
         $cache = (new Token())->hasToken(Request());
-
-        $voted = UserModel::get($id);
-        if (!$voted || $voted['candidate_id'] == 'null') {
-            parent::error('error', '您没有权限访问', 403, 'json');
-        }
 
         $user_info = UserModel::get($cache['id']); // 获取用户信息
 
@@ -183,15 +178,17 @@ class Vote extends Base
     // 新增被投票用户的总票数
     private function addUserNumber($id)
     {
-        $result = Db::name('user')->where('id', $id)
+        $result = Db::name('candidate')->where('id', $id)
             ->update([
                 'number' => Db::raw('number+' . 1),
             ]);
-        $user_info = UserModel::get($id);
-        $result = Db::name('candidate')->where('id', $user_info['candidate_id'])
-            ->update([
-                'number' => Db::raw('number+' . 1),
-            ]);
+        $user_info = CandidateModel::get($id);
+        if ($user_info['user_id'] !== null) {
+            $result = Db::name('user')->where('id', $user_info['user_id'])
+                ->update([
+                    'number' => Db::raw('number+' . 1),
+                ]);
+        }
         if (!$result) {
             return false;
         }
@@ -205,7 +202,7 @@ class Vote extends Base
 
         $data = [
             'user_id' => $user_info['id'],
-            'voted_id' => $id,
+            'voted_id' => $id, // 考生表考生ID
             'voted' => $date
         ];
         $result = (new VotingRecordModel())->save($data);

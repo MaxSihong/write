@@ -4,6 +4,7 @@
 namespace app\api\controller;
 
 use app\api\library\Token;
+use app\api\model\User as UserModel;
 use app\api\model\VotingRecord as VotingRecordModel;
 
 class VotingRecord extends Base
@@ -20,12 +21,17 @@ class VotingRecord extends Base
         $cache = (new Token())->hasToken(Request());
 
         if ($status == 0) { // 获票记录
-            $data = (new VotingRecordModel())->where('voted_id', $cache['id'])
-                ->with(['user'])
-                ->select();
+            $user_info = UserModel::get($cache['id']);
+            if ($user_info['candidate_id'] !== null) {
+                $data = (new VotingRecordModel())->where('voted_id', $user_info['candidate_id'])
+                    ->with(['user'])
+                    ->select();
+            } else {
+                $data = [];
+            }
         } elseif ($status == 1) { // 投票记录
             $data = (new VotingRecordModel())->where('user_id', $cache['id'])
-                ->with(['voted'])
+                ->with(['candidate'])
                 ->select();
         }
 

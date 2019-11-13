@@ -22,6 +22,7 @@ class Login extends Base
 
         $result = (new WeChat())->miniProgram($data['code']); // 获取 OpenID 和 SessionKey
         $user_info = $this->checkOpenID($result, $data); // 查看该用户是否登录过小程序
+        $user_info = UserModel::get(['openId' => $result['openid']]);
 
         $result['id'] = $user_info['id'];
 
@@ -53,11 +54,8 @@ class Login extends Base
             if (!$result) {
                 parent::error('error', '服务器繁忙，请稍后再试', 500, 'json');
             }
-
-            $user = UserModel::get(['openId' => $result['openid']]);
         }
-
-        return $user;
+        return true;
     }
 
     // 生成 Token

@@ -3,7 +3,7 @@
 
 namespace app\api\controller;
 
-use app\api\model\User as UserModel;
+use app\api\model\Candidate as CandidateModel;
 use app\api\model\Config as ConfigModel;
 use think\Request;
 
@@ -17,7 +17,7 @@ class Index extends Base
      */
     public function index()
     {
-        $data = (new UserModel())->where('candidate_id', '<>', 'null')
+        $data = (new CandidateModel())->where(null)
             ->order('number', 'desc')
             ->field('id,name,number,candidate_number,avatar_url')
             ->limit('10')
@@ -31,6 +31,10 @@ class Index extends Base
             $data[$i]['ranking'] = $i + 1;
         }
 
+        foreach ($data as $key => $value) {
+            $value['candidate_number'] = self::func_substr_replace($value['candidate_number']);
+        }
+
         $root = Request::instance()->domain();
         $new_data = [
             'user_info' => $data,
@@ -38,6 +42,30 @@ class Index extends Base
         ];
 
         parent::success('success', $new_data, 200, 'json');
+    }
+
+    public static function func_substr_replace($str, $replacement = '*', $start = 2, $length = 3)
+    {
+        $len = mb_strlen($str, 'utf-8');
+
+        if ($len > intval($start + $length)) {
+            $str1 = mb_substr($str, 0, $start, 'utf-8');
+            $str2 = mb_substr($str, intval($start + $length), NULL, 'utf-8');
+        } else {
+            $str1 = mb_substr($str, 0, 1, 'utf-8');
+            $str2 = mb_substr($str, $len - 1, 1, 'utf-8');
+            $length = $len - 2;
+
+        }
+        $new_str = $str1;
+
+        for ($i = 0; $i < $length; $i++) {
+
+            $new_str .= $replacement;
+
+        }
+        $new_str .= $str2;
+        return $new_str;
     }
 
     /**

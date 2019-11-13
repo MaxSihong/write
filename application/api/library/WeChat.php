@@ -64,12 +64,11 @@ class WeChat extends Base
             'page' => $url,
             'width' => 500,
         ]);
-        return $response;
 
+        $name = session_create_id();
         if ($response instanceof \EasyWeChat\Kernel\Http\StreamResponse) {
-           return $filename = $response->saveAs(ROOT_PATH . 'public/wechat', 'aa.png');
+           return $filename = $response->save(ROOT_PATH . 'public/wechat', $name . '.png');
         }
-
     }
 
     private function checkWeChatConfig()

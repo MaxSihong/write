@@ -5,6 +5,7 @@ namespace app\api\model;
 
 
 use think\Model;
+use think\Request;
 
 class Candidate extends Model
 {
@@ -23,4 +24,20 @@ class Candidate extends Model
     protected $append = [
 
     ];
+
+    public function user()
+    {
+        return $this->belongsTo('User', 'user_id', 'id')
+            ->find('id,name,avatar_url,voted,frequency,candidate_id,number');
+    }
+
+    // 图片拼接
+    public function getAvatarUrlAttr($value)
+    {
+        if (strstr($value, 'https://wx.qlogo.cn')) {
+            return $value;
+        }
+        $root_path = Request::instance()->domain(); // 获取当前域名
+        return $root_path . $value;
+    }
 }

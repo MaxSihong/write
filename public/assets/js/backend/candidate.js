@@ -32,8 +32,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'seat_number', title: __('Seat_number')},
                         {field: 'candidate_region', title: __('Candidate_region')},
                         {field: 'number', title: __('Number')},
+                        {field: 'user_id', title: __('是否认证')},
                         {field: 'is_check', title: __('Is_check')},
-                        // {field: 'user_id', title: __('User_id')},
                         {field: 'create_at', title: __('Create_at')},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]

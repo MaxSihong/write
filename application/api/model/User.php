@@ -28,4 +28,9 @@ class User extends Model
     {
         return $this->belongsTo('candidate', 'candidate_id', 'id');
     }
+
+    public function getNameAttr($value)
+    {
+        return base64_decode($value);
+    }
 }

@@ -60,6 +60,12 @@ class Candidate extends Backend
                 ->select();
 
             foreach ($list as $key => $value) {
+                if ($value['user_id'] == null) {
+                    $list[$key]['user_id'] = '否';
+                } else {
+                    $list[$key]['user_id'] = '是';
+                }
+
                 if ($value['is_check'] == '0') {
                     $list[$key]['is_check'] = '否';
                 } else {

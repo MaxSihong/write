@@ -136,9 +136,6 @@ class Vote extends Base
         }
 
         $result = $this->successfulVote($id, $user_info); // 投票成功 减少投票次数，新增已投票次数，新增投票记录
-        if (!$result) {
-            parent::error('error', '服务器繁忙，请稍后再试', 500, 'json');
-        }
 
         $user = UserModel::get($user_info['id']);
         $data = [

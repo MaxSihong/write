@@ -21,4 +21,9 @@ class Base extends Api
             }
         }
     }
+
+    public static function weChatException($data)
+    {
+        parent::error('error', $data, 400, 'json');
+    }
 }

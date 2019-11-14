@@ -3,13 +3,11 @@
 
 namespace app\api\library;
 
-
-use app\api\model\Config as ConfigModel;
 use app\api\controller\Base;
+use app\api\model\Config as ConfigModel;
 use EasyWeChat\Factory;
-use think\Request;
 
-class WeChat extends Base
+class WeChat
 {
     private $AppID; // AppID
 
@@ -67,17 +65,17 @@ class WeChat extends Base
 
         $name = session_create_id();
         if ($response instanceof \EasyWeChat\Kernel\Http\StreamResponse) {
-           return $filename = $response->save(ROOT_PATH . 'public/wechat', $name . '.png');
+            return $filename = $response->save(ROOT_PATH . 'public/wechat', $name . '.png');
         }
     }
 
     private function checkWeChatConfig()
     {
         if (empty($this->AppID)) {
-            parent::error('error', '请在后台配置小程序的AppID', '400');
+            Base::weChatException('请在后台配置小程序的AppID');
         }
         if (empty($this->AppSecret)) {
-            parent::error('error', '请在后台配置小程序的AppSecret', '400');
+            Base::weChatException('请在后台配置小程序的AppSecret');
         }
         return true;
     }

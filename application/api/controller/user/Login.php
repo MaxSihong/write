@@ -50,7 +50,7 @@ class Login extends Base
             $result = (new UserModel())->save([
                 'openid' => $result['openid'],
                 'avatar_url' => $user_info['avatarUrl'],
-                'name' => $user_info['nickName'],
+                'name' => base64_encode($user_info['nickName']),
             ]);
             if (!$result) {
                 parent::error('error', '服务器繁忙，请稍后再试', 500, 'json');

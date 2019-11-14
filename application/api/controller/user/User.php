@@ -47,7 +47,7 @@ class User extends Base
                     unset($value['number']);
                     $data = (new UserModel())->where('id', $cache['id'])
                         ->field('id,name,avatar_url,voted,frequency,candidate_id')
-                        ->find();;
+                        ->find();
                     $data['ranking'] = $value['ranking'];
                 }
             }
@@ -94,7 +94,7 @@ class User extends Base
 
         // 考生根用户关联
         (new UserModel())->save([
-            'name' => $data['name'],
+            'name' => base64_encode($data['name']),
             'candidate_id' => $candidate['id'],
             'candidate_number' => $candidate['candidate_number'],
         ], ['id' => $cache['id']]);

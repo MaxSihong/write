@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:87:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html";i:1573549060;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:87:"/Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html";i:1573728953;s:78:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/layout/default.html";i:1572491542;s:75:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/meta.html";i:1572491542;s:77:"/Applications/MAMP/htdocs/fastadmin/application/admin/view/common/script.html";i:1572491542;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -58,12 +58,12 @@
             <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text">
         </div>
     </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Phone'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-phone" class="form-control" name="row[phone]" type="text">
-        </div>
-    </div>
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Phone'); ?>:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-phone" class="form-control" name="row[phone]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Candidate_number'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
@@ -89,29 +89,23 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Avatar_url'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-avatar_url" data-rule="required" class="form-control" name="row[avatar_url]" type="text" value="/wechat/wechat.jpg">
-        </div>
-    </div>
-    <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Is_check'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
             <input id="c-is_check" data-rule="required" class="form-control" name="row[is_check]" type="number" value="0">
         </div>
     </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_id'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-user_id" data-rule="required" data-source="user/user/index" data-field="nickname" class="form-control selectpage" name="row[user_id]" type="text" value="">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Create_at'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-create_at" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_at]" type="text" value="<?php echo date('Y-m-d H:i:s'); ?>">
-        </div>
-    </div>
+    <!--    <div class="form-group">-->
+    <!--        <label class="control-label col-xs-12 col-sm-2"><?php echo __('User_id'); ?>:</label>-->
+    <!--        <div class="col-xs-12 col-sm-8">-->
+    <!--            <input id="c-user_id" data-rule="required" data-source="user/user/index" data-field="nickname" class="form-control selectpage" name="row[user_id]" type="text" value="">-->
+    <!--        </div>-->
+    <!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Create_at'); ?>:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-create_at" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_at]" type="text" value="<?php echo date('Y-m-d H:i:s'); ?>">-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="form-group layer-footer">
         <label class="control-label col-xs-12 col-sm-2"></label>
         <div class="col-xs-12 col-sm-8">

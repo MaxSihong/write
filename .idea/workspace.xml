@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a382343a-6850-4266-b7e4-1b6cdcc75ddb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/controller/Candidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Candidate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/user/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/user/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/user/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/user/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/user/Vote.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/user/Vote.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/library/WeChat.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/library/WeChat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/candidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/candidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/candidate/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/candidate/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/74/ab7db2a94c5cf2750ca74e6662e72c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/cb/78ef4a9130f39208ff10858ddd8377.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/e2/53724ece73ccc79590705d3c01a7bb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201911/14.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/201911/14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/87841e0f77842ebff0b8092e01884fe6.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/87841e0f77842ebff0b8092e01884fe6.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +123,7 @@
       <workItem from="1573526674773" duration="15036000" />
       <workItem from="1573565349363" duration="234000" />
       <workItem from="1573570264879" duration="25000" />
-      <workItem from="1573615222060" duration="14314000" />
+      <workItem from="1573615222060" duration="17284000" />
     </task>
     <servers />
   </component>

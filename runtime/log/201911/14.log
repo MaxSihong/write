@@ -11208,3 +11208,3721 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000534s ]
 [ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000478s ]
 [ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:17+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?ref=addtabs
+[运行时间：0.047625s] [吞吐率：21.00req/s] [内存消耗：2,971.29kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002445s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002294s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:18+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?ref=addtabs
+[运行时间：0.046046s] [吞吐率：21.72req/s] [内存消耗：2,971.26kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001346s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002769s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:20+08:00 ] 0.0.0.0 GET fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs
+[运行时间：0.047205s] [吞吐率：21.18req/s] [内存消耗：3,422.13kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001244s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php/general/config?ref=addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001872s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:20+08:00 ] 0.0.0.0 GET fa/index.php?s=/captcha
+[运行时间：0.065777s] [吞吐率：15.20req/s] [内存消耗：2,185.77kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006828s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/MAMP/htdocs/fastadmin/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:20+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=index&v=1573728800
+[运行时间：0.048558s] [吞吐率：20.59req/s] [内存消耗：3,427.44kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001768s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1573728800',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002235s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000229s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:26+08:00 ] 0.0.0.0 GET fa/index.php?s=/captcha&r=0.15763067442058287
+[运行时间：0.037829s] [吞吐率：26.43req/s] [内存消耗：2,186.09kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001652s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.15763067442058287',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/MAMP/htdocs/fastadmin/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:28+08:00 ] 0.0.0.0 POST fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs
+[运行时间：0.069538s] [吞吐率：14.38req/s] [内存消耗：4,267.19kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001403s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://fa',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php/general/config?ref=addtabs',
+  '__token__' => 'c6f55e8dd49775fc6fc7bc42245f4f74',
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'whtr',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001825s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002628s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.008035s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1573728808,`token`='935d9f19-6974-4e5a-8dfa-aaf38ae3ca9f',`updatetime`=1573728808  WHERE  `id` = 1 [ RunTime:0.001775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin.php\\/general\\/config?ref=addtabs\",\"__token__\":\"c6f55e8dd49775fc6fc7bc42245f4f74\",\"username\":\"admin\",\"captcha\":\"whtr\"}' , '/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36' , '0.0.0.0' , 1573728808) [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:28+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?ref=addtabs
+[运行时间：0.059951s] [吞吐率：16.68req/s] [内存消耗：4,010.83kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000084s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001805s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002194s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000121s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000588s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:29+08:00 ] 0.0.0.0 GET fa/admin.php/index/index
+[运行时间：0.114411s] [吞吐率：8.74req/s] [内存消耗：4,486.99kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001180s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/login?url=%2Fadmin.php%2Fgeneral%2Fconfig%3Fref%3Daddtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001780s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000114s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:29+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?addtabs=1
+[运行时间：0.083953s] [吞吐率：11.91req/s] [内存消耗：4,386.77kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007134s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001935s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000188s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:29+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=index&v=1573728809
+[运行时间：0.057873s] [吞吐率：17.28req/s] [内存消耗：3,427.55kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001525s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1573728809',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002580s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:29+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=general.config&v=1573728809
+[运行时间：0.068546s] [吞吐率：14.59req/s] [内存消耗：3,426.57kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006975s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1573728809',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003963s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:30+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?addtabs=1
+[运行时间：0.061308s] [吞吐率：16.31req/s] [内存消耗：4,326.35kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001273s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002229s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000111s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'candidate' LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:31+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728810
+[运行时间：0.046633s] [吞吐率：21.44req/s] [内存消耗：3,423.29kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001688s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728810',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001800s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:31+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728810999
+[运行时间：0.075891s] [吞吐率：13.18req/s] [内存消耗：4,371.45kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007151s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728810999',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002998s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000114s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:35+08:00 ] 0.0.0.0 GET fa/admin.php/user_info?addtabs=1
+[运行时间：0.059575s] [吞吐率：16.79req/s] [内存消耗：4,307.94kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001310s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user_info',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/user_info?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001995s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/user_info.php
+[ info ] [ RUN ] app\admin\controller\UserInfo->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/UserInfo.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/user_info/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'userinfo' LIMIT 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:35+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=user_info&v=1573728815
+[运行时间：0.052056s] [吞吐率：19.21req/s] [内存消耗：3,422.83kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005956s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/user_info?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user_info',
+  'v' => '1573728815',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002705s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/user_info.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:53:35+08:00 ] 0.0.0.0 GET fa/admin.php/user_info/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728815179
+[运行时间：0.075463s] [吞吐率：13.25req/s] [内存消耗：4,430.95kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007068s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user_info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/user_info?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728815179',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002930s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/user_info.php
+[ info ] [ RUN ] app\admin\controller\UserInfo->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/UserInfo.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000113s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_info` [ RunTime:0.001646s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user_info` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_info` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` IN (1) [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:53:36+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728811000
+[运行时间：0.070671s] [吞吐率：14.15req/s] [内存消耗：4,371.45kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001563s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728811000',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001854s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000113s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000878s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?ref=addtabs
+[运行时间：0.053959s] [吞吐率：18.53req/s] [内存消耗：3,999.20kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001467s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/user_info?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001999s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000111s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/index/index
+[运行时间：0.111844s] [吞吐率：8.94req/s] [内存消耗：4,487.09kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001256s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/user_info?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001942s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000119s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?addtabs=1
+[运行时间：0.076427s] [吞吐率：13.08req/s] [内存消耗：4,326.28kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007267s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004174s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'candidate' LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=index&v=1573728885
+[运行时间：0.054930s] [吞吐率：18.20req/s] [内存消耗：3,427.55kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001825s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1573728885',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002501s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000225s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728885
+[运行时间：0.063780s] [吞吐率：15.68req/s] [内存消耗：3,423.29kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006961s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728885',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001877s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?addtabs=1
+[运行时间：0.095565s] [吞吐率：10.46req/s] [内存消耗：4,386.84kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007591s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002671s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000329s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728885351
+[运行时间：0.101692s] [吞吐率：9.83req/s] [内存消耗：4,357.60kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006823s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728885351',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003263s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:45+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=general.config&v=1573728885
+[运行时间：0.055499s] [吞吐率：18.02req/s] [内存消耗：3,426.57kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001618s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1573728885',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002089s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:54:47+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/add?dialog=1
+[运行时间：0.080225s] [吞吐率：12.46req/s] [内存消耗：4,483.76kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001324s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002182s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000455s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:48+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728887
+[运行时间：0.050691s] [吞吐率：19.73req/s] [内存消耗：3,423.34kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005855s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728887',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002627s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000105s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:54:52+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/add?dialog=1
+[运行时间：0.057987s] [吞吐率：17.25req/s] [内存消耗：4,340.23kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001212s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002295s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000107s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:54:52+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728892
+[运行时间：0.050046s] [吞吐率：19.98req/s] [内存消耗：3,423.34kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005471s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728892',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002419s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?ref=addtabs
+[运行时间：0.054958s] [吞吐率：18.20req/s] [内存消耗：3,999.20kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001414s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/user_info?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001930s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/index/index
+[运行时间：0.108620s] [吞吐率：9.21req/s] [内存消耗：4,487.09kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001268s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/user_info?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001908s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000115s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?addtabs=1
+[运行时间：0.101732s] [吞吐率：9.83req/s] [内存消耗：4,326.28kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008471s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002737s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000194s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'candidate' LIMIT 1 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=index&v=1573728939
+[运行时间：0.081768s] [吞吐率：12.23req/s] [内存消耗：3,427.55kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001469s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003197s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1573728939',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004365s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000205s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728939
+[运行时间：0.093380s] [吞吐率：10.71req/s] [内存消耗：3,423.29kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006926s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728939',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007203s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000399s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?addtabs=1
+[运行时间：0.098128s] [吞吐率：10.19req/s] [内存消耗：4,386.84kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000081s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009226s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003181s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000114s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728939397
+[运行时间：0.101188s] [吞吐率：9.88req/s] [内存消耗：4,357.60kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000081s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007917s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728939397',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005213s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:39+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=general.config&v=1573728939
+[运行时间：0.051615s] [吞吐率：19.37req/s] [内存消耗：3,426.57kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002717s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1573728939',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002212s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:41+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/add?dialog=1
+[运行时间：0.068256s] [吞吐率：14.65req/s] [内存消耗：4,483.76kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001561s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002604s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:41+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728941
+[运行时间：0.057913s] [吞吐率：17.27req/s] [内存消耗：3,423.34kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005706s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728941',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002594s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000121s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:55+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?ref=addtabs
+[运行时间：0.052900s] [吞吐率：18.90req/s] [内存消耗：3,999.20kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001378s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/user_info?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001901s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:55+08:00 ] 0.0.0.0 GET fa/admin.php/index/index
+[运行时间：0.111435s] [吞吐率：8.97req/s] [内存消耗：4,487.09kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001228s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/user_info?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002192s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000118s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:55+08:00 ] 0.0.0.0 GET fa/admin.php/candidate?addtabs=1
+[运行时间：0.090131s] [吞吐率：11.09req/s] [内存消耗：4,326.28kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000103s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008345s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003716s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'candidate' LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:55+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=index&v=1573728955
+[运行时间：0.067062s] [吞吐率：14.91req/s] [内存消耗：3,427.55kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001512s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1573728955',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005291s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:55+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728955
+[运行时间：0.084497s] [吞吐率：11.83req/s] [内存消耗：3,423.29kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009520s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728955',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003481s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:55+08:00 ] 0.0.0.0 GET fa/admin.php/general/config?addtabs=1
+[运行时间：0.098920s] [吞吐率：10.11req/s] [内存消耗：4,386.84kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000109s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007697s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004010s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000224s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000583s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:56+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728955720
+[运行时间：0.102387s] [吞吐率：9.77req/s] [内存消耗：4,357.60kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007198s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728955720',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003578s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000169s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:56+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=general.config&v=1573728955
+[运行时间：0.051899s] [吞吐率：19.27req/s] [内存消耗：3,426.57kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001456s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1573728955',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002929s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000115s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:55:56+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/add?dialog=1
+[运行时间：0.067124s] [吞吐率：14.90req/s] [内存消耗：4,483.76kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001500s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002082s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000115s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:55:57+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573728956
+[运行时间：0.050967s] [吞吐率：19.62req/s] [内存消耗：3,423.34kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006403s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573728956',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001969s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:56:16+08:00 ] 0.0.0.0 POST fa/admin.php/candidate/add?dialog=1
+[运行时间：0.065058s] [吞吐率：15.37req/s] [内存消耗：4,330.66kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001409s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'content-length' => '182',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://fa',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'name' => '陈志洪',
+    'candidate_number' => '123123',
+    'seat_number' => '1排1座',
+    'candidate_region' => 'a',
+    'number' => '0',
+    'is_check' => '0',
+  ),
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001881s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001933s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region` , `number` , `is_check`) VALUES ('陈志洪' , '123123' , '1排1座' , 'a' , 0 , 0) [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('考生管理 添加' , '{\"dialog\":\"1\",\"row\":{\"name\":\"\\u9648\\u5fd7\\u6d2a\",\"candidate_number\":\"123123\",\"seat_number\":\"1\\u63921\\u5ea7\",\"candidate_region\":\"a\",\"number\":\"0\",\"is_check\":\"0\"}}' , '/admin.php/candidate/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36' , '0.0.0.0' , 1573728976) [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:56:16+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728955721
+[运行时间：0.064909s] [吞吐率：15.41req/s] [内存消耗：4,367.55kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001394s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728955721',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001951s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000115s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:58:28+08:00 ] 127.0.0.1 POST fa/api/user/login
+[运行时间：0.673671s] [吞吐率：1.48req/s] [内存消耗：5,473.57kb] [文件加载：258]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002113s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ea8b8f1b-973d-4548-a9ea-cff424145263',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '594',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033IuoS50KyqUC1xePR50t9rS50IuoSQ',
+  'iv' => '0hq4VHbA8jX2NCe0sQC67w==',
+  'encryptedData' => '0eaM6NsyVaiuriQFKxz6s8tshkjOjh3kxwKgwO0XB5JZloyXLRix9Ky5dK4OIbIg6gg5/EB/XmqfXaaGWhFBfIaKDBUdybzlDf0w9wAC7NZGAEYGPtvCy4dT0PhwrWh2dVpUiaVCFa3Kaj7rZ4zr+UNzIOMmxFwwnrlrhgRl/0mYLx/eqrTj7pbKNo4LHaIOnS5HhcLrQKKsjxj01RNWmS3MRwuiRH4teos8y/vIlfWdE5TVOaIL6oAQO9dk3tryexXpHpx/IumeyYmVOFy7xUnDi0z3fDfoZXmRy/3htHakZG4JhJIM1NZceoIFQ6nVkNda+HP4oJh7GTz1yLo+HGGD8de4SHzdISnXCQCkapexAF4Mh2VV4VlCsghYQ5p5WNdENLZYSTZiC8rqMumPzDNruDoRu3ixaPS6g1Y6nhXm6HVMWOJdYQ5BFFlx9grT0HPQmy7MHw2jhenBCrEa+8NakyWz5FgVYaqIazZbBjM=',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002962s ]
+[ info ] [ RUN ] app\api\controller\user\Login->login[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` WHERE  `name` = 'AppID' LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` WHERE  `name` = 'AppSecret' LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `openId` = 'o9LgR5aTQssrjDGb31y1eUE0gdj8' LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` WHERE  `name` = 'AppID' LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` WHERE  `name` = 'AppSecret' LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user` (`openid` , `avatar_url` , `name`) VALUES ('o9LgR5aTQssrjDGb31y1eUE0gdj8' , 'https://wx.qlogo.cn/mmopen/vi_32/wnNregQoqTpA519MibrQsiarQRVZGXFqBt60zm0LB1TTw0f5NUNiaSmT2hqaoqGSMSP1ywZAvsJoGUA105Jdnn1jg/132' , '8J+Mmw==') [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `openId` = 'o9LgR5aTQssrjDGb31y1eUE0gdj8' LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:58:39+08:00 ] 127.0.0.1 POST fa/api/user/certification
+[运行时间：0.053444s] [吞吐率：18.71req/s] [内存消耗：3,397.11kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000072s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001512s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'studentCertification',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => 'f588628cd2f6572d04214d47c866a7c3',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '766d57da-b428-403f-8595-1e8fdcc5eb60',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '77',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '陈志洪',
+  'phone' => '13428038110',
+  'candidate_number' => '123123',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001926s ]
+[ info ] [ RUN ] app\api\controller\user\User->studentCertification[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` WHERE  `name` = '陈志洪'  AND `candidate_number` = '123123' LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2019-11-14T18:59:09+08:00 ] 127.0.0.1 POST fa/api/user/certification
+[运行时间：0.059511s] [吞吐率：16.80req/s] [内存消耗：3,463.18kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001349s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'studentCertification',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => 'f588628cd2f6572d04214d47c866a7c3',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0d8f4d85-8130-4f2e-bba1-17c1c0077e5b',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '77',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '陈志洪',
+  'phone' => '13428038110',
+  'candidate_number' => '123123',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002446s ]
+[ info ] [ RUN ] app\api\controller\user\User->studentCertification[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000726s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.001762s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` WHERE  `name` = '陈志洪'  AND `candidate_number` = '123123' LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] UPDATE `fa_candidate`  SET `phone`='13428038110',`user_id`=1,`avatar_url`='https://wx.qlogo.cn/mmopen/vi_32/wnNregQoqTpA519MibrQsiarQRVZGXFqBt60zm0LB1TTw0f5NUNiaSmT2hqaoqGSMSP1ywZAvsJoGUA105Jdnn1jg/132'  WHERE  `id` = 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `name`='6ZmI5b+X5rSq',`candidate_id`=1,`candidate_number`='123123'  WHERE  `id` = 1 [ RunTime:0.000766s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:00:00+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/add?dialog=1
+[运行时间：0.060977s] [吞吐率：16.40req/s] [内存消耗：4,340.23kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001327s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001893s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:00:00+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573729200
+[运行时间：0.051422s] [吞吐率：19.45req/s] [内存消耗：3,423.34kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005598s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573729200',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002459s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000119s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T19:00:04+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/edit/ids/1?dialog=1
+[运行时间：0.060262s] [吞吐率：16.59req/s] [内存消耗：4,334.77kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001209s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002210s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->edit[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000106s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:00:04+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573729204
+[运行时间：0.052010s] [吞吐率：19.23req/s] [内存消耗：3,423.71kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006072s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/edit/ids/1?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573729204',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002587s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000106s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T19:00:15+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/edit/ids/1?dialog=1
+[运行时间：0.062119s] [吞吐率：16.10req/s] [内存消耗：4,334.77kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001324s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001892s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->edit[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:00:15+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573729215
+[运行时间：0.052902s] [吞吐率：18.90req/s] [内存消耗：3,423.71kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005716s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/edit/ids/1?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573729215',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002487s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T19:02:09+08:00 ] 0.0.0.0 POST fa/admin.php/candidate/del/ids/1
+[运行时间：0.066916s] [吞吐率：14.94req/s] [内存消耗：4,346.30kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001465s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://fa',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '1',
+  'params' => '',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001895s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->del[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001819s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` WHERE  `id` IN (1) [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `candidate_id`=NULL,`candidate_number`=NULL  WHERE  `id` = 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] DELETE FROM `fa_candidate`    WHERE  `id` = 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('考生管理 删除' , '{\"action\":\"del\",\"ids\":\"1\",\"params\":\"\"}' , '/admin.php/candidate/del/ids/1' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36' , '0.0.0.0' , 1573729329) [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:02:09+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728955722
+[运行时间：0.062360s] [吞吐率：16.04req/s] [内存消耗：4,357.60kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001589s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728955722',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001817s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:02:11+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728955723
+[运行时间：0.061216s] [吞吐率：16.34req/s] [内存消耗：4,357.60kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001244s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728955723',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001832s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000113s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:02:29+08:00 ] 127.0.0.1 POST fa/api/user/certification
+[运行时间：0.056453s] [吞吐率：17.71req/s] [内存消耗：3,403.29kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001526s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'studentCertification',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => 'f588628cd2f6572d04214d47c866a7c3',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'da51402d-8937-433e-87b0-4f6d846f8b25',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '77',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '陈志洪',
+  'phone' => '13428038110',
+  'candidate_number' => '123123',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003941s ]
+[ info ] [ RUN ] app\api\controller\user\User->studentCertification[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` WHERE  `name` = '陈志洪'  AND `candidate_number` = '123123' LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:02:40+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/add?dialog=1
+[运行时间：0.060462s] [吞吐率：16.54req/s] [内存消耗：4,340.23kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001296s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002154s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/view/candidate/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000118s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:02:40+08:00 ] 0.0.0.0 GET fa/admin.php/ajax/lang?callback=define&controllername=candidate&v=1573729360
+[运行时间：0.045884s] [吞吐率：21.79req/s] [内存消耗：3,423.34kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001349s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'candidate',
+  'v' => '1573729360',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001839s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000119s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T19:02:52+08:00 ] 0.0.0.0 POST fa/admin.php/candidate/add?dialog=1
+[运行时间：0.065796s] [吞吐率：15.20req/s] [内存消耗：4,330.66kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001483s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'content-length' => '182',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://fa',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://fa/admin.php/candidate/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'name' => '陈志洪',
+    'candidate_number' => '123123',
+    'seat_number' => '1排1座',
+    'candidate_region' => 'a',
+    'number' => '0',
+    'is_check' => '0',
+  ),
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001865s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Applications/MAMP/htdocs/fastadmin/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001964s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] INSERT INTO `fa_candidate` (`name` , `candidate_number` , `seat_number` , `candidate_region` , `number` , `is_check`) VALUES ('陈志洪' , '123123' , '1排1座' , 'a' , 0 , 0) [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('考生管理 添加' , '{\"dialog\":\"1\",\"row\":{\"name\":\"\\u9648\\u5fd7\\u6d2a\",\"candidate_number\":\"123123\",\"seat_number\":\"1\\u63921\\u5ea7\",\"candidate_region\":\"a\",\"number\":\"0\",\"is_check\":\"0\"}}' , '/admin.php/candidate/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36' , '0.0.0.0' , 1573729372) [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:02:52+08:00 ] 0.0.0.0 GET fa/admin.php/candidate/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1573728955724
+[运行时间：0.067036s] [吞吐率：14.92req/s] [内存消耗：4,367.55kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001268s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'candidate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fa',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://fa/admin.php/candidate?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,la;q=0.7,und;q=0.6,fr;q=0.5,zh-TW;q=0.4',
+  'cookie' => 'PHPSESSID=9ivo4gas31270ij7m8neh1705e',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1573728955724',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001845s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/admin/lang/zh-cn/candidate.php
+[ info ] [ RUN ] app\admin\controller\Candidate->index[ /Applications/MAMP/htdocs/fastadmin/application/admin/controller/Candidate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_candidate` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2019-11-14T19:02:55+08:00 ] 127.0.0.1 POST fa/api/user/certification
+[运行时间：0.064595s] [吞吐率：15.48req/s] [内存消耗：3,463.06kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002019s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user.user',
+    2 => 'studentCertification',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'token' => 'f588628cd2f6572d04214d47c866a7c3',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '004aa35a-e604-4414-82e3-880512ca0aea',
+  'host' => 'fa',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '77',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '陈志洪',
+  'phone' => '13428038110',
+  'candidate_number' => '123123',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/fastadmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002221s ]
+[ info ] [ RUN ] app\api\controller\user\User->studentCertification[ /Applications/MAMP/htdocs/fastadmin/application/api/controller/user/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;port=8889;dbname=write;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_candidate` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_candidate` WHERE  `name` = '陈志洪'  AND `candidate_number` = '123123' LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] UPDATE `fa_candidate`  SET `phone`='13428038110',`user_id`=1,`avatar_url`='https://wx.qlogo.cn/mmopen/vi_32/wnNregQoqTpA519MibrQsiarQRVZGXFqBt60zm0LB1TTw0f5NUNiaSmT2hqaoqGSMSP1ywZAvsJoGUA105Jdnn1jg/132'  WHERE  `id` = 2 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `name`='6ZmI5b+X5rSq',`candidate_id`=2,`candidate_number`='123123'  WHERE  `id` = 1 [ RunTime:0.000585s ]
